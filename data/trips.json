@@ -1,0 +1,105 @@
+{
+  "_comment": "Single Source of Truth-Prinzip: Diese Datei wird von Claude gepflegt, wann immer sich Lissabon_Tripplanung.docx aendert. generate_site.py liest ausschliesslich aus dieser Datei -- nie direkt aus dem Word-Dokument. Das entkoppelt Content (hier) von Praesentation (docs/), sodass Word jederzeit die Bearbeitungswahrheit bleibt und die Website nur ein abgeleiteter, generierter Spiegel ist.",
+  "stand": "2026-08-02",
+  "trips": [
+    {
+      "slug": "cycling-marginal",
+      "title": "Cycling an der Marginal",
+      "zeitraum": "September 2026",
+      "status": "offen",
+      "status_label": "Termin offen",
+      "beschreibung": "Flache 30 km von Cais do Sodre am Fluss/Meer entlang ueber Belem und Carcavelos bis Cascais/Guincho.",
+      "logistik": "Fahrrad in Cais do Sodre mieten. Ruecktransport entspannt mit dem Vorortzug (Linha de Cascais).",
+      "begruendung": null,
+      "maps_link": "https://maps.google.com/?q=Cais+do+Sodre+Lisboa"
+    },
+    {
+      "slug": "coastal-trekking",
+      "title": "Coastal Trekking",
+      "zeitraum": "September 2026",
+      "status": "offen",
+      "status_label": "Termin offen",
+      "beschreibung": "Von Cabo da Roca bis Praia da Ursa -- anspruchsvoll, entlang der Steilkueste.",
+      "logistik": "Bus 403 ab Sintra oder Cascais.",
+      "begruendung": null,
+      "maps_link": "https://maps.google.com/?q=Cabo+da+Roca"
+    },
+    {
+      "slug": "fishermans-trail",
+      "title": "Fisherman's Trail (Alentejo)",
+      "zeitraum": "Sa 10.10. - So 11.10.2026",
+      "status": "vorschlag",
+      "status_label": "Vorschlag -- bitte bestaetigen",
+      "beschreibung": "Zweitages-Wanderung auf den Klippen im Alentejo.",
+      "logistik": null,
+      "begruendung": "Frueher Oktober, noch stabiles Spaetsommerwetter. Liegt vor der Zeitumstellung (25.10.) und vor dem Barcelona-Trip.",
+      "maps_link": "https://maps.google.com/?q=Rota+Vicentina+Fishermans+Trail"
+    },
+    {
+      "slug": "algarve",
+      "title": "Algarve (Lagos, Faro, Sagres)",
+      "zeitraum": "Sa 17.10. - So 18.10.2026",
+      "status": "vorschlag",
+      "status_label": "Vorschlag -- bitte bestaetigen",
+      "beschreibung": "Wochenendtrip an die Algarve-Kueste.",
+      "logistik": null,
+      "begruendung": "Wassertemperatur im Oktober noch angenehm. Ein Wochenende Abstand zum Fisherman's Trail zur Erholung.",
+      "maps_link": "https://maps.google.com/?q=Lagos+Algarve+Portugal"
+    },
+    {
+      "slug": "arrabida",
+      "title": "Parque Natural da Arrabida",
+      "zeitraum": "Sa 24.10. - So 25.10.2026",
+      "status": "vorschlag",
+      "status_label": "Vorschlag -- bitte bestaetigen",
+      "beschreibung": "Klippen und tuerkises Wasser, als Tagesausflug (kein Uebernachten noetig).",
+      "logistik": "Erreichbar via Fertagus-Zug nach Setubal.",
+      "begruendung": "Guter Ausklang vor dem Barcelona-Wochenende (31.10.-01.11.).",
+      "maps_link": "https://maps.google.com/?q=Parque+Natural+da+Arrabida"
+    },
+    {
+      "slug": "barcelona",
+      "title": "Barcelona-Wochenende",
+      "zeitraum": "31.10. - 01.11.2026",
+      "status": "bestaetigt",
+      "status_label": "Bestaetigt",
+      "beschreibung": "Wochenende mit Freunden in Barcelona.",
+      "logistik": null,
+      "begruendung": null,
+      "maps_link": "https://maps.google.com/?q=Barcelona"
+    },
+    {
+      "slug": "web-summit",
+      "title": "Web Summit Lissabon",
+      "zeitraum": "09.11. - 12.11.2026",
+      "status": "bestaetigt",
+      "status_label": "Bestaetigt -- Volunteer",
+      "beschreibung": "Globales Tech-Event. Teilnahme als Volunteer bereits bestaetigt.",
+      "logistik": null,
+      "begruendung": null,
+      "maps_link": "https://maps.google.com/?q=Web+Summit+Lisboa"
+    },
+    {
+      "slug": "marrakesch",
+      "title": "Marrakesch",
+      "zeitraum": "Fr 20.11. - Mo 23.11.2026",
+      "status": "vorschlag",
+      "status_label": "Vorschlag -- bitte bestaetigen",
+      "beschreibung": "Flucht vor dem feuchtkalten Lissabon-Wetter.",
+      "logistik": null,
+      "begruendung": "Direkt nach dem Web Summit ist Erholungszeit vorhanden. Ende November ist es in Marrakesch noch mild-warm.",
+      "maps_link": "https://maps.google.com/?q=Marrakesch"
+    },
+    {
+      "slug": "madeira",
+      "title": "Madeira",
+      "zeitraum": "Sa 05.12. - So 06.12.2026",
+      "status": "vorschlag",
+      "status_label": "Vorschlag -- bitte bestaetigen",
+      "beschreibung": "Mildes Klima, perfekt fuer extrem hoehenmeterreiche Wanderungen (z.B. Pico Ruivo).",
+      "logistik": null,
+      "begruendung": "Erstes Dezember-Wochenende, vor der teureren Weihnachts-Reisezeit und mit noch angenehmer Tageslichtlaenge.",
+      "maps_link": "https://maps.google.com/?q=Pico+Ruivo+Madeira"
+    }
+  ]
+}

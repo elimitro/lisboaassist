@@ -1,0 +1,68 @@
+/* Wird von generate_site.py NICHT ueberschrieben (liegt separat), sondern beim ersten Setup
+   einmalig nach docs/style.css kopiert. Passe hier Farben/Look an -- der Generator fasst
+   diese Datei nie an. */
+:root {
+  --sand: #f5efe6;
+  --terracotta: #c9713d;
+  --azul: #1f5f74;
+  --ok: #2f7a4d;
+  --pending: #c9713d;
+  --open: #8a8a8a;
+  --text: #2a2a28;
+}
+
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--sand);
+  color: var(--text);
+  margin: 0;
+  padding: 1.2rem;
+  line-height: 1.5;
+}
+header, footer { max-width: 800px; margin: 0 auto; }
+footer { opacity: 0.6; font-size: 0.85rem; margin-top: 2rem; }
+h1 { color: var(--azul); }
+nav a, .maps-link { color: var(--azul); text-decoration: none; font-weight: 600; }
+nav a:hover, .maps-link:hover { text-decoration: underline; }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: 1.5rem auto;
+}
+.card {
+  display: block;
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  border-left: 5px solid var(--open);
+}
+.card h3 { margin: 0.4rem 0 0.2rem; }
+.card .meta { margin: 0; opacity: 0.7; font-size: 0.9rem; }
+.card.status-bestaetigt { border-left-color: var(--ok); }
+.card.status-vorschlag { border-left-color: var(--pending); }
+.card.status-offen { border-left-color: var(--open); }
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  background: var(--open);
+  color: white;
+}
+.badge.status-bestaetigt { background: var(--ok); }
+.badge.status-vorschlag { background: var(--pending); }
+.badge.status-offen { background: var(--open); }
+
+main { max-width: 800px; margin: 0 auto; }
+.spot-list { list-style: none; padding: 0; }
+.spot-list li { background: white; border-radius: 10px; padding: 1rem; margin-bottom: 0.8rem; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.tipp { font-style: italic; opacity: 0.8; }

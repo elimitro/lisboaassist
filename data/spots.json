@@ -1,0 +1,77 @@
+{
+  "_comment": "Analog zu trips.json: Source of Truth ist Lissabon_Spots.docx, diese Datei ist die strukturierte Ableitung daraus, die sowohl generate_site.py (Website) als auch export_kml.py (Google-My-Maps-Export) als gemeinsame Datenquelle nutzen. Ein Datensatz, zwei Ausgabeformate -- keine Redundanz, kein doppelter Pflegeaufwand.",
+  "_koordinaten_hinweis": "Koordinaten sind recherchiert bzw. nach bestem Wissen approximiert (ca.-Werte bei Pow Wow / LX Factory / Cascais / Estoril). Nach KML-Import in Google My Maps ggf. Pin per Drag-and-Drop feinjustieren.",
+  "kategorien": [
+    {
+      "name": "Kultur & Events",
+      "spots": [
+        {
+          "name": "Fundacao Calouste Gulbenkian",
+          "lat": 38.7369,
+          "lon": -9.1546,
+          "beschreibung": "Exzellenter Konzertsaal fuer klassische Konzerte mit Residenzorchester. Die Gaerten eignen sich hervorragend zum Arbeiten/Lernen.",
+          "tipp": "Cartao Gulbenkian (kostenlose Kundenkarte) vorab online beantragen -- schaltet den Buchungs-Button fuer kostenlose Events 24 Std. frueher frei.",
+          "maps_link": "https://maps.google.com/?q=Funda%C3%A7%C3%A3o+Calouste+Gulbenkian+Lisboa"
+        },
+        {
+          "name": "Web Summit",
+          "lat": 38.7639,
+          "lon": -9.0968,
+          "beschreibung": "Globales Tech-Event, 09.-12.11.2026. Teilnahme als Volunteer bereits bestaetigt.",
+          "tipp": null,
+          "maps_link": "https://maps.google.com/?q=Feira+Internacional+de+Lisboa"
+        },
+        {
+          "name": "Konzert: Tchaikovsky's Serenade for Strings",
+          "lat": 38.7369,
+          "lon": -9.1546,
+          "beschreibung": "24.09.2026, 20:00 Uhr, Fund. Gulbenkian. Kostenlos, aber Online-Reservierung noetig.",
+          "tipp": null,
+          "maps_link": "https://maps.google.com/?q=Funda%C3%A7%C3%A3o+Calouste+Gulbenkian+Lisboa"
+        }
+      ]
+    },
+    {
+      "name": "Cafes & Szene",
+      "spots": [
+        {
+          "name": "LX Factory",
+          "lat": 38.7050,
+          "lon": -9.1755,
+          "beschreibung": "Hippes Industrieareal mit Ateliers und Cafes direkt unter der Bruecke.",
+          "tipp": null,
+          "maps_link": "https://maps.google.com/?q=LX+Factory+Lisboa"
+        },
+        {
+          "name": "Pow Wow",
+          "lat": 38.7614,
+          "lon": -9.1633,
+          "beschreibung": "Sehr aktives Spiele-Cafe, ideal fuer Brettspiel-Meetups und um Leute kennenzulernen. Rua Professor Fernando da Fonseca 19, Telheiras.",
+          "tipp": null,
+          "maps_link": "https://maps.google.com/?q=Pow+Wow+Rua+Professor+Fernando+da+Fonseca+19+Lisboa"
+        }
+      ]
+    },
+    {
+      "name": "Outdoor & Natur (Direktumgebung)",
+      "spots": [
+        {
+          "name": "Sintra-Gebirge (Santuario da Peninha)",
+          "lat": 38.76854,
+          "lon": -9.46051,
+          "beschreibung": "Alternative zu den ueberlaufenen Palaesten. Steile Waldpfade fuer ordentliche Anstiege und 360-Grad-Blicke.",
+          "tipp": null,
+          "maps_link": "https://maps.google.com/?q=Santu%C3%A1rio+da+Peninha"
+        },
+        {
+          "name": "Cascais & Estoril",
+          "lat": 38.6968,
+          "lon": -9.4215,
+          "beschreibung": "Schnelle Strandauszeiten, ca. 40 Min. mit dem Zug (Linha de Cascais).",
+          "tipp": null,
+          "maps_link": "https://maps.google.com/?q=Cascais+Portugal"
+        }
+      ]
+    }
+  ]
+}
