@@ -6,3 +6,8 @@ Thumbs.db
 # Word-Planungsdokumente bleiben lokal (Source of Truth), nicht im Repo:
 *.docx
 ~$*.docx
+
+# Sicherungskopien vor groesseren Umplanungen -- lokal nuetzlich, im Repo nur Rauschen.
+# (Die echte Versionshistorie liefert git selbst.)
+*.bak
+node_modules/

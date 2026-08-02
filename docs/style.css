@@ -66,3 +66,100 @@ main { max-width: 800px; margin: 0 auto; }
 .spot-list { list-style: none; padding: 0; }
 .spot-list li { background: white; border-radius: 10px; padding: 1rem; margin-bottom: 0.8rem; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
 .tipp { font-style: italic; opacity: 0.8; }
+
+/* --- Quadranten-Gruppierung (Validierung 02.08.2026) --- */
+.cluster { margin: 2.2rem 0; }
+.cluster > h2 {
+  border-bottom: 2px solid #d9d4cc;
+  padding-bottom: .35rem;
+  margin-bottom: .9rem;
+}
+.cluster > h2 .meta { font-weight: 400; font-size: .8rem; }
+.card .terrain {
+  font-size: .78rem;
+  color: #6b665f;
+  margin: .35rem 0 0;
+  font-style: italic;
+}
+.reserve {
+  margin-top: 2.5rem;
+  padding: 1.2rem 1.4rem;
+  background: #f4f1ec;
+  border-radius: 8px;
+}
+.reserve h2 { margin-top: 0; }
+
+/* --- Wochenend-Matrix (Zwischenuebersicht 02.08.2026) --- */
+.matrix { margin: 1.5rem 0 2.5rem; }
+.we-table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+.we-table th {
+  text-align: left; padding: .45rem .6rem;
+  border-bottom: 2px solid #c9c3b8; background: #f4f1ec;
+}
+.we-table td { padding: .5rem .6rem; border-bottom: 1px solid #e6e2da; vertical-align: top; }
+.we-datum { white-space: nowrap; font-weight: 600; }
+.we-status { white-space: nowrap; font-size: .78rem; }
+/* Farbcodierung = die eigentliche Aussage der Tabelle: gruen = vor Ort,
+   orange = auswaerts, grau = gar nicht in Portugal. */
+.we-lissabon    { background: #f1f7f2; }
+.we-lissabon    .we-status { color: #2f7a4d; font-weight: 600; }
+.we-auswaerts   { background: #fdf5ef; }
+.we-auswaerts   .we-status { color: #c9713d; font-weight: 600; }
+.we-deutschland { background: #f2f2f2; color: #8a8a8a; }
+.we-deutschland .we-status { color: #8a8a8a; }
+
+/* --- Semester-Kalender auf der Startseite --- */
+.kalender { margin: 1rem 0 2.5rem; }
+.kal-legende {
+  display: flex; flex-wrap: wrap; gap: .35rem 1rem;
+  font-size: .78rem; color: #6b665f; margin: .6rem 0 1.1rem; align-items: center;
+}
+.kal-legende .sw {
+  display: inline-block; width: 11px; height: 11px;
+  border-radius: 3px; margin-right: .35rem; vertical-align: -1px;
+}
+/* auto-fit statt fester Spaltenzahl: auf dem Handy einspaltig, am Desktop
+   so viele Monate nebeneinander, wie hineinpassen. */
+.kal-monate { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.4rem; }
+.kal-monat h3 { margin: 0 0 .3rem; font-size: 1rem; font-weight: 600; }
+.kal-band {
+  display: inline-block; font-size: .72rem; color: #6b665f;
+  background: #f4f1ec; border: 1px solid #e0dbd2; border-radius: 6px;
+  padding: .15rem .45rem; margin-bottom: .4rem;
+}
+.kal-wk, .kal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+.kal-wk { margin-bottom: 2px; }
+.kal-wk span { font-size: .68rem; color: #9a948a; text-align: center; }
+.kal-tag, .kal-leer {
+  min-height: 42px; border-radius: 5px; padding: 2px 3px;
+  display: block; text-decoration: none; overflow: hidden;
+}
+.kal-leer { background: transparent; }
+.kal-tag { background: #fff; border: 1px solid #ece8e0; color: inherit; }
+.kal-tag.kal-we { background: #faf8f4; }
+.kal-nr { display: block; font-size: .68rem; color: #9a948a; line-height: 1.25; }
+.kal-lab { display: block; font-size: .62rem; line-height: 1.15; margin-top: 1px; }
+/* Farbcodierung identisch zur Wochenend-Matrix -- eine Sprache, zwei Ansichten. */
+.kal-lissabon    { background: #e2f0e6 !important; border-color: #b4d8bf !important; }
+.kal-lissabon    .kal-nr, .kal-lissabon .kal-lab { color: #1f5c38; }
+.kal-auswaerts   { background: #fbe9dc !important; border-color: #e8c4a4 !important; }
+.kal-auswaerts   .kal-nr, .kal-auswaerts .kal-lab { color: #8a4a1c; }
+.kal-feiertag    { background: #fdf3d0 !important; border-color: #e6d18f !important; }
+.kal-feiertag    .kal-nr, .kal-feiertag .kal-lab { color: #7a5c10; }
+.kal-warn        { background: #fae3e3 !important; border-color: #e6b3b3 !important; }
+.kal-warn        .kal-nr, .kal-warn .kal-lab { color: #8a2b2b; }
+.kal-deutschland { background: #f2f2f2 !important; border-color: #e4e4e4 !important; }
+.kal-deutschland .kal-nr, .kal-deutschland .kal-lab { color: #a5a099; }
+a.kal-tag:hover { outline: 2px solid #8a8378; outline-offset: -2px; }
+
+/* --- Datum prominenter --- */
+.card-datum {
+  font-size: .95rem; font-weight: 600; color: #3c372f;
+  margin: .1rem 0 .15rem; letter-spacing: -.01em;
+}
+.detail-datum {
+  font-size: 1.05rem; font-weight: 600; color: #3c372f;
+  margin: .1rem 0 .9rem; padding-bottom: .55rem;
+  border-bottom: 1px solid #e6e2da;
+}
+.lead { font-size: 1.02rem; line-height: 1.6; }

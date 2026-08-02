@@ -28,6 +28,54 @@
           "beschreibung": "24.09.2026, 20:00 Uhr, Fund. Gulbenkian. Kostenlos, aber Online-Reservierung nötig.",
           "tipp": null,
           "maps_link": "https://maps.google.com/?q=Funda%C3%A7%C3%A3o+Calouste+Gulbenkian+Lisboa"
+        },
+        {
+          "name": "Wonderland Lisboa (Weihnachtsmarkt)",
+          "lat": 38.73,
+          "lon": -9.1533,
+          "beschreibung": "Parque Eduardo VII, ca. Ende Nov. bis Anfang Jan. Riesenrad, Eisbahn, Markt. Von European Best Destinations als „Best Sunny Christmas Market“ ausgezeichnet.",
+          "tipp": "Eintritt aufs Gelände ist frei, nur die Attraktionen kosten. Termine für 2026/27 stehen noch nicht fest – ab Oktober prüfen.",
+          "maps_link": "https://maps.google.com/?q=Parque+Eduardo+VII+Lisboa"
+        },
+        {
+          "name": "Museu Nacional do Azulejo",
+          "lat": 38.7247,
+          "lon": -9.1136,
+          "beschreibung": "Kachelkunst vom 15. Jh. bis heute, in einem Kloster mit Kreuzgang. Deutlich ruhiger als die Innenstadtmuseen und erklärt, warum ganz Lissabon so aussieht, wie es aussieht.",
+          "tipp": "Studentenrabatt auf den Eintritt. Sonntagvormittags ist der Eintritt in vielen städtischen Museen ermäßigt oder frei – vorher auf der Museums-Website prüfen.",
+          "maps_link": "https://maps.google.com/?q=Museu+Nacional+do+Azulejo"
+        },
+        {
+          "name": "MAAT & Centro Cultural de Belém",
+          "lat": 38.6959,
+          "lon": -9.201,
+          "beschreibung": "Museum für Kunst, Architektur und Technologie am Tejo, plus das CCB mit ganzjährigem Konzert- und Ausstellungsprogramm. Das begehbare Wellendach des MAAT ist kostenlos.",
+          "tipp": "Am 1. Januar spielt das Orquestra Metropolitana im CCB das Neujahrskonzert – fällt aber in eure Weihnachtspause.",
+          "maps_link": "https://maps.google.com/?q=MAAT+Lisboa"
+        },
+        {
+          "name": "Mosteiro dos Jerónimos & Torre de Belém",
+          "lat": 38.6979,
+          "lon": -9.2065,
+          "beschreibung": "Zwei UNESCO-Welterbestätten nebeneinander in Belém, beide Hochpunkte der Manuelinik. Kam in der Planung bisher nur als Durchfahrt beim Cycling vor – das ist ein eigener Tag wert.",
+          "tipp": "Städtische Museen sind an bestimmten Sonntagvormittagen ermäßigt oder frei – vorher auf der Museums-Website prüfen. Der Kreuzgang ist der eigentliche Grund für den Besuch, nicht die Kirche.",
+          "maps_link": "https://maps.google.com/?q=Mosteiro+dos+Jer%C3%B3nimos+Lisboa"
+        },
+        {
+          "name": "Museu do Fado & Fado Vadio in Alfama",
+          "lat": 38.7139,
+          "lon": -9.125,
+          "beschreibung": "Fado ist UNESCO-immaterielles Kulturerbe und die Kunstform, für die Lissabon steht – im bisherigen Plan fehlte sie komplett. Das Museu do Fado in Alfama liefert den Kontext, danach gehört ein echter Abend dazu.",
+          "tipp": "Touristenlokale mit Menü und Show meiden. In kleinen Tascas (z. B. Tasca do Chico) gibt es „Fado Vadio“: Laien singen spontan, kein Eintritt, nur Getränke. Das ist die ehrliche Variante und kostet fast nichts.",
+          "maps_link": "https://maps.google.com/?q=Museu+do+Fado+Lisboa"
+        },
+        {
+          "name": "Doclisboa & LEFFEST (Filmfestivals)",
+          "lat": 38.737,
+          "lon": -9.144,
+          "beschreibung": "Doclisboa läuft vom 15.–25.10.2026 (internationales Dokumentarfilmfestival), LEFFEST – Lisbon & Estoril Film Festival vom 06.–15.11.2026.",
+          "tipp": "Das LEFFEST-Eröffnungswochenende (07./08.11.) liegt genau in einem eurer freien Wochenenden. Doclisboa überschneidet sich mit Algarve und Arrábida, läuft aber zehn Tage – unter der Woche nachholbar. Studententickets prüfen.",
+          "maps_link": "https://maps.google.com/?q=Cinema+S%C3%A3o+Jorge+Lisboa"
         }
       ]
     },
@@ -36,11 +84,80 @@
       "spots": [
         {
           "name": "LX Factory",
-          "lat": 38.7050,
+          "lat": 38.705,
           "lon": -9.1755,
           "beschreibung": "Hippes Industrieareal mit Ateliers und Cafés direkt unter der Brücke.",
           "tipp": null,
           "maps_link": "https://maps.google.com/?q=LX+Factory+Lisboa"
+        },
+        {
+          "name": "Marvila & Beato (Craft-Beer-Distrikt)",
+          "lat": 38.7385,
+          "lon": -9.1005,
+          "beschreibung": "Ehemaliges Industrieviertel im Osten, heute Galerien, Streetart und Lissabons Craft-Beer-Szene: Dois Corvos (die erste Craft-Brauerei der Stadt mit eigenem Taproom), Musa und Lince. Dazu „8 Marvila“, ein Hallenkomplex mit wechselndem Kulturprogramm.",
+          "tipp": "Kein Ausgehviertel im Party-Sinn – am besten samstags nachmittags. Fast keine Touristen, entsprechend normale Preise.",
+          "maps_link": "https://maps.google.com/?q=Dois+Corvos+Cervejeira+Marvila"
+        },
+        {
+          "name": "Panorâmico de Monsanto",
+          "lat": 38.7229,
+          "lon": -9.1955,
+          "beschreibung": "Verlassenes Panorama-Restaurant aus den 1960ern im Monsanto-Wald, heute komplett mit Streetart überzogen. Über eine Treppe geht es aufs Dach – einer der besten Blicke über Lissabon.",
+          "tipp": "Kostenlos und meist fast leer. Der klassische Geheimtipp der Einheimischen. Nicht nach Einbruch der Dunkelheit hin.",
+          "maps_link": "https://maps.google.com/?q=Panor%C3%A2mico+de+Monsanto"
+        },
+        {
+          "name": "Mercado de Campo de Ourique",
+          "lat": 38.7156,
+          "lon": -9.1662,
+          "beschreibung": "Markthalle im Wohnviertel Campo de Ourique – dasselbe Konzept wie der Time Out Market, aber mit Einheimischen statt Kreuzfahrtgästen und zu deutlich niedrigeren Preisen.",
+          "tipp": "Mit der Tram 28 erreichbar, an der Endhaltestelle Prazeres – dort ist die Bahn außerdem noch leer.",
+          "maps_link": "https://maps.google.com/?q=Mercado+de+Campo+de+Ourique"
+        }
+      ]
+    },
+    {
+      "name": "Strände & Badestellen (September/Oktober)",
+      "spots": [
+        {
+          "name": "Praia de Carcavelos",
+          "lat": 38.6797,
+          "lon": -9.3369,
+          "beschreibung": "Der große, breite Stadtstrand an der Linha de Cascais – 25 Minuten mit dem Zug, komplett über die Navegante-Karte. Der schnellste Weg ins Meer, wenn zwischen zwei Vorlesungen zwei Stunden frei sind.",
+          "tipp": "September und Oktober sind an der Lissabonner Küste die besten Badenmonate: Das Meer hat die Sommerwärme gespeichert (ca. 18–20 °C), und die Strände sind deutlich leerer als im August.",
+          "maps_link": "https://maps.google.com/?q=Praia+de+Carcavelos"
+        },
+        {
+          "name": "Portinho da Arrábida & Praia dos Galapinhos",
+          "lat": 38.4831,
+          "lon": -8.9797,
+          "beschreibung": "Die karibikartigen Buchten im Naturpark Arrábida. Weil sie nach Süden in die Bucht von Setúbal zeigen, ist das Wasser hier ruhiger und wärmer als am offenen Atlantik – kein Wellengang, kein Wind.",
+          "tipp": "Deshalb im September statt im Oktober: Mitte September rund 18–20 °C, Ende Oktober nur noch etwa 17 °C. Anfahrt per Fertagus nach Setúbal, dann lokaler Anschluss.",
+          "maps_link": "https://maps.google.com/?q=Portinho+da+Arr%C3%A1bida"
+        },
+        {
+          "name": "Praia das Maçãs & Azenhas do Mar (Sintra-Küste)",
+          "lat": 38.8206,
+          "lon": -9.4708,
+          "beschreibung": "Die Sintra-Küste, erreichbar mit dem historischen Eléctrico de Sintra (Straßenbahn von 1904, fährt vom Ort hinunter ans Meer). Azenhas do Mar ist das Dorf, das die Klippe hinunterzufließen scheint, mit einem Meerwasserbecken im Fels.",
+          "tipp": "Wichtig: Die Praia da Adraga gilt als der schönste Strand dieser Küste, ist aber OHNE AUTO nicht erreichbar – dorthin fährt kein Bus. Praia Grande und Praia das Maçãs gehen dagegen per Zug plus Bus 441 bzw. Eléctrico.",
+          "maps_link": "https://maps.google.com/?q=Azenhas+do+Mar+Sintra"
+        },
+        {
+          "name": "Praia da Ursa",
+          "lat": 38.7847,
+          "lon": -9.4939,
+          "beschreibung": "Die wildeste Bucht der Region, nur zu Fuß über einen unmarkierten Steilpfad ab Cabo da Roca erreichbar – dafür fast menschenleer, mit den markanten Felsnadeln im Wasser.",
+          "tipp": "Ca. 150 hm steiler Abstieg, teils rutschiger Sandhang. Nicht bei Nässe und nicht in Sandalen. Der Rückweg ist der anstrengende Teil – Zeit und Wasser einplanen.",
+          "maps_link": "https://maps.google.com/?q=Praia+da+Ursa+Sintra"
+        },
+        {
+          "name": "Praia da Rainha & Boca do Inferno, Cascais",
+          "lat": 38.6963,
+          "lon": -9.4222,
+          "beschreibung": "Die Praia da Rainha ist eine winzige Bucht mitten in Cascais, die Boca do Inferno das Felsentor 15 Gehminuten weiter, in das die Brandung donnert.",
+          "tipp": "Cascais hat im September mit rund 20 °C die wärmste Wassertemperatur des Jahres – der Jahreshöchstwert der ganzen Region. Bei Sturm ist die Boca do Inferno am eindrücklichsten, dann aber nicht baden.",
+          "maps_link": "https://maps.google.com/?q=Praia+da+Rainha+Cascais"
         }
       ]
     },
@@ -62,8 +179,134 @@
           "beschreibung": "Schnelle Strandauszeiten, ca. 40 Min. mit dem Zug (Linha de Cascais).",
           "tipp": null,
           "maps_link": "https://maps.google.com/?q=Cascais+Portugal"
+        },
+        {
+          "name": "Parque Florestal de Monsanto",
+          "lat": 38.7222,
+          "lon": -9.1922,
+          "beschreibung": "Lissabons „grüne Lunge“: rund 10 km² Wald mitten in der Stadt mit markierten Wander- und Trailrunning-Strecken sowie mehreren Aussichtspunkten. Ideal für einen schnellen Naturausgleich unter der Woche.",
+          "tipp": "Mit der Navegante-Karte per Bus erreichbar – kostet also praktisch nichts.",
+          "maps_link": "https://maps.google.com/?q=Parque+Florestal+de+Monsanto"
+        },
+        {
+          "name": "Ericeira – World Surfing Reserve",
+          "lat": 38.98,
+          "lon": -9.418,
+          "beschreibung": "Europas einziges World Surfing Reserve (seit 2011): 4 km Küste mit sieben Weltklasse-Wellen, darunter Ribeira d'Ilhas und Coxos. Ab Herbst rollen die großen Atlantik-Swells an.",
+          "tipp": "Bus Mafrense ab Campo Grande, ca. 1 Std., ca. 4–5 € je Richtung. Kein Zuganschluss.",
+          "maps_link": "https://maps.google.com/?q=Ribeira+d%27Ilhas+Ericeira"
+        },
+        {
+          "name": "Reserva Natural do Estuário do Tejo",
+          "lat": 38.755,
+          "lon": -8.96,
+          "beschreibung": "Eines der wichtigsten Zugvogel-Feuchtgebiete Europas, direkt östlich der Stadt. Zwischen Oktober und Februar stehen dort Tausende Flamingos in den Salinen. Flache Deichwanderungen von 8–12 km.",
+          "tipp": "Über Fähre/Bus nach Alcochete oder per Vorortzug nach Vila Franca de Xira – beides im Navegante-Abo enthalten. Fernglas mitbringen und den Tidenkalender checken.",
+          "maps_link": "https://maps.google.com/?q=Reserva+Natural+do+Estu%C3%A1rio+do+Tejo"
+        },
+        {
+          "name": "Cabo Espichel",
+          "lat": 38.4136,
+          "lon": -9.2144,
+          "beschreibung": "Einsames Kap südlich von Sesimbra mit einem halb verlassenen Wallfahrtskomplex direkt auf der Klippenkante – und versteinerten Dinosaurier-Fußspuren im Fels. Roher, leerer und dramatischer als Cabo da Roca.",
+          "tipp": "Der Bus ab Sesimbra fährt sehr selten – Fahrplan zwingend vorher prüfen, sonst steht man fest.",
+          "maps_link": "https://maps.google.com/?q=Cabo+Espichel"
+        },
+        {
+          "name": "Costa da Caparica",
+          "lat": 38.64,
+          "lon": -9.235,
+          "beschreibung": "Der Südufer-Strand: 15 km Sand, im Sommer per Mini-Bahn erschlossen. Für Anfänger-Surfstunden deutlich günstiger und weniger überlaufen als Carcavelos.",
+          "tipp": "Fähre nach Cacilhas plus Bus, alles über die Navegante-Karte.",
+          "maps_link": "https://maps.google.com/?q=Costa+da+Caparica"
+        },
+        {
+          "name": "Quinta da Regaleira, Sintra",
+          "lat": 38.7963,
+          "lon": -9.3961,
+          "beschreibung": "Der Initiationsbrunnen – ein spiralförmiger Schacht, den man von oben nach unten durchsteigt – ist das eigentliche Highlight Sintras und deutlich eindrücklicher als die Paläste. Dazu ein esoterisch angelegter Garten mit Grotten und Tunneln.",
+          "tipp": "Gehört NICHT zu Parques de Sintra, hat also eigene Preise und ein eigenes Ticket. Früh hin, der Brunnen staut sich schnell.",
+          "maps_link": "https://maps.google.com/?q=Quinta+da+Regaleira+Sintra"
+        },
+        {
+          "name": "Convento dos Capuchos, Sintra",
+          "lat": 38.7826,
+          "lon": -9.436,
+          "beschreibung": "Winziges Kapuzinerkloster im Wald, dessen Zellen mit Kork ausgekleidet sind. Das genaue Gegenteil der prunkvollen Paläste – karg, still und kaum besucht.",
+          "tipp": "Mit Bus 435 oder zu Fuß über die Waldwege. Wer nur einen Sintra-Punkt schafft und Menschenmassen hasst: dieser hier.",
+          "maps_link": "https://maps.google.com/?q=Convento+dos+Capuchos+Sintra"
+        },
+        {
+          "name": "Castelo dos Mouros & Monserrate, Sintra",
+          "lat": 38.7924,
+          "lon": -9.3893,
+          "beschreibung": "Maurische Ruinenmauer auf dem Bergkamm mit dem besten Rundblick über Sintra und bis zum Atlantik. Monserrate ist der botanische Park daneben, subtropisch bepflanzt und meist fast leer.",
+          "tipp": "Parques de Sintra gibt KEINEN normalen Studentenrabatt (Tickets über 10 €). Aber: Studierende mit akademischer Arbeit bekommen auf vorherige Genehmigung freien Zugang – als Free Mover einen Antrag wert.",
+          "maps_link": "https://maps.google.com/?q=Castelo+dos+Mouros+Sintra"
+        },
+        {
+          "name": "Boca do Inferno & Praia do Guincho, Cascais",
+          "lat": 38.6925,
+          "lon": -9.4288,
+          "beschreibung": "Felsentor an der Küste bei Cascais, in das die Brandung donnert, plus der windexponierte Guincho-Strand dahinter. Cascais stand bisher nur als Notiz in der Liste, ohne eigenen Termin.",
+          "tipp": "Bei Sturm am spektakulärsten. Komplett über die Navegante-Karte erreichbar (Linha de Cascais, ca. 40 Min.), kostet also nichts extra.",
+          "maps_link": "https://maps.google.com/?q=Boca+do+Inferno+Cascais"
+        }
+      ]
+    },
+    {
+      "name": "Portugal-Highlights (weiter weg)",
+      "spots": [
+        {
+          "name": "Praia do Norte / Forte de São Miguel Arcanjo, Nazaré",
+          "lat": 39.6053,
+          "lon": -9.085,
+          "beschreibung": "Der Nazaré-Tiefseecanyon erzeugt hier die größten surfbaren Wellen der Welt (Weltrekord 26,2 m). Das Wettkampffenster der Tudor Nazaré Big Wave Challenge läuft vom 01.11.2026 bis 31.03.2027.",
+          "tipp": "Der Termin hängt vom Swell ab, nicht vom Kalender – die Challenge wird erst bei Wellen über 8 m aktiviert und meist nur 2–3 Tage vorher angekündigt. Wellenvorhersage für Praia do Norte abonnieren.",
+          "maps_link": "https://maps.google.com/?q=Forte+de+S%C3%A3o+Miguel+Arcanjo+Nazar%C3%A9"
+        },
+        {
+          "name": "Pinhão / Linha do Douro",
+          "lat": 41.19,
+          "lon": -7.545,
+          "beschreibung": "Endpunkt der schönsten Bahnfahrt Portugals: 160 km direkt am Douro entlang durch die UNESCO-Weinterrassen. Der Abschnitt Tua–Pocinho ist der spektakulärste.",
+          "tipp": "Ab Porto São Bento mit dem Regionalzug – und der ist im Gegensatz zum Alfa Pendular rabattfähig (25 % Jugendrabatt bis 25 J.).",
+          "maps_link": "https://maps.google.com/?q=Pinh%C3%A3o+Douro+Portugal"
+        },
+        {
+          "name": "Torre, Serra da Estrela (1.993 m)",
+          "lat": 40.3222,
+          "lon": -7.6142,
+          "beschreibung": "Höchster Punkt des portugiesischen Festlands. Schnee ab Ende Dezember, verlässlich von Januar bis Mitte Februar. Aufstieg ab Penhas da Saúde: ca. 9 km, ca. 600 hm.",
+          "tipp": "Bei starkem Schneefall sperrt die Polizei die Zufahrt (EN339) – Straßenstatus und IPMA-Wetterbericht vor der Abfahrt prüfen und einen Plan B im Tal haben.",
+          "maps_link": "https://maps.google.com/?q=Torre+Serra+da+Estrela"
+        },
+        {
+          "name": "Observatório do Lago Alqueva (OLA), Monsaraz",
+          "lat": 38.4433,
+          "lon": -7.38,
+          "beschreibung": "Weltweit erstes zertifiziertes „Starlight Tourism Destination“, rund 10.000 km² mit minimaler Lichtverschmutzung und über 280 wolkenfreien Nächten im Jahr.",
+          "tipp": "Winter ist die beste Zeit: klare, kalte Luft, Orion steht hoch. Termin unbedingt auf Neumond legen – bei Vollmond lohnt die Fahrt nicht.",
+          "maps_link": "https://maps.google.com/?q=Observat%C3%B3rio+do+Lago+Alqueva+Monsaraz"
+        },
+        {
+          "name": "Peneda-Gerês Nationalpark",
+          "lat": 41.73,
+          "lon": -8.16,
+          "beschreibung": "Portugals einziger Nationalpark: Granithochland, Wasserfälle (Arado, Pincães), wildlebende Garrano-Pferde und Dörfer an der spanischen Grenze. Weniger als 2 Std. ab Porto.",
+          "tipp": "Lässt sich direkt an einen Porto-Trip anhängen, statt eine eigene Anreise ab Lissabon zu bezahlen.",
+          "maps_link": "https://maps.google.com/?q=Parque+Nacional+da+Peneda-Ger%C3%AAs"
+        },
+        {
+          "name": "Talasnal / Aldeias do Xisto, Serra da Lousã",
+          "lat": 40.07,
+          "lon": -8.22,
+          "beschreibung": "Zwölf restaurierte Schieferdörfer im Landesinneren. Der Wanderweg PR2 verbindet die Burg von Lousã mit Talasnal und Casal Novo. Herbst ist die beste Jahreszeit.",
+          "tipp": "Sehr low-budget und praktisch ohne Touristen – ab Coimbra erreichbar.",
+          "maps_link": "https://maps.google.com/?q=Talasnal+Lous%C3%A3"
         }
       ]
     }
-  ]
+  ],
+  "stand": "2026-08-02"
 }

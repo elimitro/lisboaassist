@@ -84,11 +84,29 @@ function buildTripDoc(trip) {
 }
 
 (async () => {
+  const gesperrt = [];
   for (const trip of trips) {
     const doc = buildTripDoc(trip);
     const buf = await Packer.toBuffer(doc);
     const fname = `Lissabon_Trip_${trip.slug}.docx`;
-    fs.writeFileSync(path.join(OUT_DIR, fname), buf);
-    console.log("erstellt:", fname);
+    try {
+      fs.writeFileSync(path.join(OUT_DIR, fname), buf);
+      console.log("erstellt:", fname);
+    } catch (err) {
+      // Word haelt geoeffnete Dokumente exklusiv gesperrt (erkennbar an der
+      // ~$-Sperrdatei daneben). Ein einzelnes offenes Dokument darf nicht den
+      // gesamten Generierungslauf abbrechen -- sonst sind die restlichen
+      // Dateien inkonsistent zu trips.json.
+      if (err.code === "EACCES" || err.code === "EBUSY" || err.code === "EPERM") {
+        gesperrt.push(fname);
+        console.warn("UEBERSPRUNGEN (in Word geoeffnet?):", fname);
+      } else {
+        throw err;
+      }
+    }
+  }
+  if (gesperrt.length) {
+    console.warn(`\n${gesperrt.length} Datei(en) nicht aktualisiert. In Word schliessen und Skript erneut ausfuehren:`);
+    gesperrt.forEach((f) => console.warn("  -", f));
   }
 })();

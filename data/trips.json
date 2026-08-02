@@ -1,86 +1,242 @@
 {
-  "_comment": "Single Source of Truth-Prinzip: Diese Datei wird von Claude gepflegt, wann immer sich Lissabon_Tripplanung.docx oder die einzelnen Trip-Docx-Dokumente aendern. generate_site.py liest ausschliesslich aus dieser Datei -- nie direkt aus Word. Feldnamen (Keys) bleiben bewusst ASCII (keine Umlaute), da sie Code-Identifier sind. Sichtbare Textwerte verwenden korrekte deutsche Umlaute.",
+  "_comment": "Single Source of Truth-Prinzip: Diese Datei wird von Claude gepflegt, wann immer sich Lissabon_Tripplanung.docx oder die einzelnen Trip-Docx-Dokumente ändern. generate_site.py liest ausschliesslich aus dieser Datei – nie direkt aus Word. Feldnamen (Keys) bleiben bewusst ASCII (keine Umlaute), da sie Code-Identifier sind. Sichtbare Textwerte verwenden korrekte deutsche Umlaute.",
   "stand": "2026-08-02",
   "trips": [
     {
       "slug": "cycling-marginal",
       "title": "Cycling an der Marginal",
-      "zeitraum": "September 2026",
-      "status": "offen",
-      "status_label": "Termin offen",
+      "zeitraum": "Sa 12.09.2026 (Vorschlag)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
       "beschreibung": "Flache 30 km von Cais do Sodré am Fluss/Meer entlang über Belém und Carcavelos bis Cascais/Guincho. Eintägiger Ausflug, keine Übernachtung nötig.",
       "route_programm": "Cais do Sodré → Belém → Carcavelos → Cascais → Guincho, durchgehend am Wasser entlang, kaum Höhenmeter.",
       "logistik": "Fahrrad in Cais do Sodré mieten (Anbieter noch offen). Rückweg entspannt mit dem Vorortzug (Linha de Cascais) inkl. Fahrrad.",
       "hoehenmeter_strecke": "ca. 30 km, flach (kaum Höhenmeter)",
       "budget_rabatte": "CP-Ticket Linha de Cascais: Jugendtarif unter 26 prüfen. Fahrradverleih-Kosten noch offen.",
-      "wetter_hinweis": "Guincho ist windexponiert -- Windvorhersage vorab checken.",
-      "naechste_schritte": ["Fahrradverleih-Anbieter recherchieren", "Konkreten Termin fixieren"],
-      "begruendung": null,
-      "maps_link": "https://maps.google.com/?q=Cais+do+Sodre+Lisboa"
+      "wetter_hinweis": "Guincho ist windexponiert – Windvorhersage vorab checken.",
+      "naechste_schritte": [
+        "Fahrradverleih-Anbieter recherchieren",
+        "Konkreten Termin fixieren"
+      ],
+      "begruendung": "Erstes freies Wochenende nach der Welcome Week (04.-05.09.) und dem Vorlesungsstart (07.09.). Flach und ohne Vorbereitung – idealer Einstieg zum Ankommen.",
+      "maps_link": "https://maps.google.com/?q=Cais+do+Sodre+Lisboa",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Meer & Küste",
+      "termine": [
+        {
+          "von": "2026-09-12",
+          "bis": "2026-09-12"
+        }
+      ],
+      "kurz": "Marginal"
+    },
+    {
+      "slug": "arrabida",
+      "title": "Parque Natural da Arrábida",
+      "zeitraum": "So 13.09.2026 (Tagesausflug, Vorschlag)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "beschreibung": "Klippen und türkises Wasser – der einzige Ort in Reichweite mit karibikartigen Buchten. Praia dos Galapinhos und Portinho da Arrábida liegen geschützt in der Bucht, das Wasser ist dort ruhiger und wärmer als am offenen Atlantik.",
+      "route_programm": "Fertagus-Zug nach Setúbal, von dort in den Naturpark. Portinho da Arrábida und Praia dos Galapinhos, dazwischen der Klippenweg. Baden ist der eigentliche Zweck des Tages.",
+      "logistik": "Fertagus-Zug nach Setúbal, danach lokale Anbindung (Bus/zu Fuß) ins Naturschutzgebiet – noch zu recherchieren.",
+      "hoehenmeter_strecke": null,
+      "budget_rabatte": "Fertagus-Ticket – Jugendrabatt prüfen.",
+      "wetter_hinweis": "Mitte September liegt die Wassertemperatur an der Lissabonner Küste bei rund 18-20 Grad – das Jahresmaximum, weil das Meer die Sommerwärme gespeichert hat. In der geschützten Arrábida-Bucht ist es meist noch etwas wärmer. Ende Oktober wären es nur noch rund 17 Grad.",
+      "naechste_schritte": [
+        "Fertagus-Verbindung und Anschlussbus ab Setúbal prüfen",
+        "Wassertemperatur und Wellengang kurz vorher checken"
+      ],
+      "begruendung": "VORGEZOGEN von 24.10. auf 13.09. Die Arrábida ist der Türkiswasser-Spot der Planung – ihn ans Ende des Oktobers zu legen, wenn das Wasser auf 17 Grad abgekühlt ist und ihr nur noch von oben draufschaut, war der einzige echte Saisonfehler im Plan. Nebeneffekt: Der 24.10. wird frei und entlastet den überladenen Oktober.",
+      "maps_link": "https://maps.google.com/?q=Parque+Natural+da+Arrabida",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Meer & Küste",
+      "termine": [
+        {
+          "von": "2026-09-13",
+          "bis": "2026-09-13"
+        }
+      ],
+      "kurz": "Arrábida"
     },
     {
       "slug": "coastal-trekking",
       "title": "Coastal Trekking",
-      "zeitraum": "September 2026",
-      "status": "offen",
-      "status_label": "Termin offen",
-      "beschreibung": "Von Cabo da Roca bis Praia da Ursa -- anspruchsvoll, entlang der Steilküste.",
+      "zeitraum": "Sa 19.09.2026 (Vorschlag)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "beschreibung": "Von Cabo da Roca bis Praia da Ursa – anspruchsvoll, entlang der Steilküste.",
       "route_programm": "Cabo da Roca → Praia da Ursa und zurück, Steilküsten-Trail.",
       "logistik": "Bus 403 ab Sintra oder Cascais bis Cabo da Roca, Rückweg selber Bus oder zu Fuß zurück.",
-      "hoehenmeter_strecke": "Kurze, aber steile Strecke -- genaue km/Höhenmeter noch zu recherchieren.",
+      "hoehenmeter_strecke": "Cabo da Roca -> Praia da Ursa ca. 3 km einfach, ca. 150 hm steiler Abstieg zur Bucht – der Rückweg ist der anstrengende Teil. Kein markierter Weg, teils rutschiger Sandhang, nicht bei Nässe gehen.",
       "budget_rabatte": "Bus 403 (Scotturb) + CP-Anreise nach Sintra/Cascais mit Jugendrabatt prüfen.",
-      "wetter_hinweis": "Trail ist teils exponiert -- stabiles, wenig windiges Wetter abwarten.",
-      "naechste_schritte": ["Streckenlänge & Höhenmeter recherchieren", "Bus-403-Fahrplan prüfen"],
-      "begruendung": null,
-      "maps_link": "https://maps.google.com/?q=Cabo+da+Roca"
+      "wetter_hinweis": "Trail ist teils exponiert – stabiles, wenig windiges Wetter abwarten.",
+      "naechste_schritte": [
+        "Streckenlänge & Höhenmeter recherchieren",
+        "Bus-403-Fahrplan prüfen"
+      ],
+      "begruendung": "Zweites September-Wochenende, Wasser noch warm genug für ein Bad an der Ursa. Direkt vor dem Gulbenkian-Konzert am 24.09.",
+      "maps_link": "https://maps.google.com/?q=Cabo+da+Roca",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Meer & Küste",
+      "termine": [
+        {
+          "von": "2026-09-19",
+          "bis": "2026-09-19"
+        }
+      ],
+      "kurz": "Cabo da Roca"
+    },
+    {
+      "slug": "sintra-kueste",
+      "title": "Sintra-Küste & Cascais (September-Badetage)",
+      "zeitraum": "So 20.09. + Sa 26.09.2026 (Vorschlag)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Meer & Küste",
+      "beschreibung": "Zwei niedrigschwellige Badetage im wärmsten Monat – beide über die Navegante-Karte abgedeckt, also praktisch kostenlos. Bewusst getrennt von den Sintra-Palästen: Die gehören in den Winter, die Sintra-Küste gehört in den September.",
+      "route_programm": "So 20.09.: Zug nach Sintra, dort mit dem historischen Eléctrico de Sintra (Straßenbahn von 1904) hinunter nach Praia das Maçãs, weiter zu Fuß nach Azenhas do Mar – das Dorf, das die Klippe hinunterfließt. Alternativ Praia Grande, der größte Strand der Sintra-Küste. Sa 26.09.: Cascais und Estoril – Boca do Inferno (Felsentor, in das die Brandung donnert), Altstadt, Baden an der Praia da Rainha oder der Praia do Guincho.",
+      "logistik": "Sintra: CP Linha de Sintra ab Rossio (ca. 40 Min.), dann Eléctrico oder Bus 441 zur Praia Grande. Cascais: CP Linha de Cascais ab Cais do Sodré (ca. 40 Min.). Beides läuft über die Navegante-Karte.",
+      "hoehenmeter_strecke": "Küstenweg Praia das Maçãs -> Azenhas do Mar: ca. 2 km, flach. Cascais -> Boca do Inferno -> Guincho: bis 9 km entlang der Küstenpromenade, flach.",
+      "budget_rabatte": "Mit laufendem Navegante-Abo kosten beide Tage nichts außer Essen. Der Eléctrico de Sintra hat einen eigenen kleinen Fahrpreis.",
+      "wetter_hinweis": "Cascais hat im September mit rund 20 Grad die wärmste Wassertemperatur des Jahres. September und Oktober sind laut allen Quellen die besten Badenmonate an der Lissabonner Küste – das Meer hat die Sommerwärme gespeichert und die Strände sind deutlich leerer als im August. ACHTUNG: Praia da Adraga ist zwar der schönste Strand der Sintra-Küste, aber ohne Auto nicht erreichbar. Der offene Atlantik hat hier starke Strömung und Brandung – an unbewachten Abschnitten nicht weit rausschwimmen.",
+      "naechste_schritte": [
+        "Fahrplan Eléctrico de Sintra prüfen (fährt saisonal eingeschränkt)",
+        "Beide Termine bewusst locker halten – das ist Ankommen, kein Programm"
+      ],
+      "begruendung": "NEU ergänzt: Im ursprünglichen September gab es Radfahren, Wandern und Surfern-Zuschauen – aber keinen einzigen Tag, an dem ihr einfach ins Wasser geht. Und Cascais/Estoril stand zwar als Spot in der Liste, hatte aber nie einen Termin. Genau dafür ist der September da.",
+      "maps_link": "https://maps.google.com/?q=Praia+das+Ma%C3%A7%C3%A3s+Sintra",
+      "termine": [
+        {
+          "von": "2026-09-20",
+          "bis": "2026-09-20"
+        },
+        {
+          "von": "2026-09-26",
+          "bis": "2026-09-26"
+        }
+      ],
+      "kurz": "Sintra-Küste"
+    },
+    {
+      "hoehenmeter_strecke": "ca. 5 km Klippenpfad, kaum Höhenmeter",
+      "wetter_hinweis": "Je größer der Swell, desto besser das Schauspiel – aber dann nicht selbst ins Wasser. Swell-Vorhersage (z.B. Windguru/Surfline) vorab checken.",
+      "begruendung": "Füllt die Lücke im September und ergaenzt den Küsten-Cluster um eine Facette, die sonst komplett fehlt: Surfkultur statt nur Wandern.",
+      "route_programm": "Küstenwanderung Ribeira d'Ilhas -> Praia do Norte -> Ericeira-Altstadt (ca. 5 km, flach, Klippenpfad). Anschliessend Fischlokal im Ort.",
+      "naechste_schritte": [
+        "Mafrense-Fahrplan ab Campo Grande prüfen",
+        "Swell-Vorhersage kurz vorher checken"
+      ],
+      "slug": "ericeira",
+      "title": "Ericeira – World Surfing Reserve",
+      "zeitraum": "So 27.09.2026 (Vorschlag)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Meer & Küste",
+      "beschreibung": "Europas einziges World Surfing Reserve (seit 2011) – 4 km Küste mit sieben Weltklasse-Wellen, darunter Ribeira d'Ilhas und Coxos. Im Herbst beginnt die Atlantik-Swell-Saison, das Zuschauen allein lohnt den Weg.",
+      "logistik": "Bus Mafrense ab Campo Grande (Lissabon) direkt nach Ericeira, ca. 1 Std. Kein Zug – Bus ist hier die einzige sinnvolle Option.",
+      "budget_rabatte": "Mafrense-Bus ca. 4-5 EUR je Richtung. Zuschauen ist kostenlos. Surf-Schnupperstunde mit Studentenrabatt möglich – Schulen direkt vor Ort vergleichen.",
+      "maps_link": "https://maps.google.com/?q=Ribeira+d%27Ilhas+Ericeira",
+      "termine": [
+        {
+          "von": "2026-09-27",
+          "bis": "2026-09-27"
+        }
+      ],
+      "kurz": "Ericeira"
+    },
+    {
+      "hoehenmeter_strecke": "Optionale Weinbergs-Wanderung ab Pinhão: 8-12 km, 300-450 hm. Bom Jesus: 577 Stufen zu Fuß oder mit der wasserbetriebenen Standseilbahn von 1882.",
+      "wetter_hinweis": "Anfang Oktober ist Weinlese im Douro, die Terrassen färben sich – die schönste Zeit dort. Der Norden ist deutlich regenreicher als Lissabon, Regenjacke einplanen.",
+      "begruendung": "ERWEITERT auf deinen Wunsch. Ehrlicher Hinweis: Douro, Guimarães und Braga in drei Tagen zusammen geht sich nicht aus – Guimarães und Braga an einem Tag ist bereits sportlich (beide sind UNESCO-Altstädte, die je einen halben Tag verdienen). Deshalb ein Tag mehr: Fr 02.10. als einziger Fehltag, Mo 05.10. ist Feiertag (Implantação da República). Alternative ohne Fehltag: Sa-Mo bleiben und den Douro-Tag streichen – dann ist es ein reiner Minho-Trip.",
+      "route_programm": "Fr: früher Zug nach Porto, Ribeira, Livraria Lello/Clérigos, Weinkeller in Vila Nova de Gaia. Sa: Linha do Douro ab Porto São Bento bis Pinhão (ca. 2,5 Std.), Wanderung an den Weinterrassen, abends zurück. So: Guimarães (Burg, Paço dos Duques, UNESCO-Altstadt) am Vormittag, mittags weiter nach Braga (25 km), dort Bom Jesus do Monte inkl. Standseilbahn und Kathedrale. Mo (Feiertag): Porto-Küste (Foz/Matosinhos) und Rückfahrt am Abend.",
+      "naechste_schritte": [
+        "Entscheiden: 4 Tage mit einem Fehltag (Fr 02.10.) oder 3 Tage ohne Douro-Tag",
+        "CP-Tickets Lissabon-Porto als Intercidades buchen (Jugendrabatt)",
+        "Hostel Porto für alle Nächte buchen",
+        "Linha-do-Douro-Fahrplan prüfen",
+        "Regionalbus Guimarães <-> Braga prüfen"
+      ],
+      "slug": "porto-douro",
+      "title": "Porto, Douro & Minho (Braga + Guimarães)",
+      "zeitraum": "Fr 02.10. - Mo 05.10.2026 (Vorschlag, 4 Tage)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "cluster": "Q2 -- Portugal Festland",
+      "terrain": "Stadt & Kultur / Binnenland",
+      "beschreibung": "Nordportugal am Stück: Porto als Basis, das Douro-Tal per Bahn, dazu die beiden UNESCO-Städte des Minho. Guimarães gilt als „Wiege Portugals“, Braga hat mit Bom Jesus do Monte die berühmteste Barocktreppe des Landes.",
+      "logistik": "CP Intercidades Lissabon -> Porto Campanhã, ca. 3 Std. Ab Porto São Bento: Linha do Douro nach Pinhão sowie CP-Urbanos nach Guimarães (1:00-1:20) und Braga (ca. 1:00) – beide Städte sind vom selben Bahnhof aus direkt erreichbar, zwischen ihnen fährt ein Regionalbus. Hostel durchgehend in Porto, kein Umziehen nötig.",
+      "budget_rabatte": "25 % CP-Jugendrabatt gilt auf Intercidades, Regional und InterRegional – NICHT auf Alfa Pendular. Also bewusst Intercidades buchen. Die CP-Urbanos nach Guimarães/Braga sind ohnehin billig (wenige Euro). Guimarães Burg und Paço dos Duques mit Studentenrabatt.",
+      "maps_link": "https://maps.google.com/?q=Pinh%C3%A3o+Douro+Portugal",
+      "termine": [
+        {
+          "von": "2026-10-02",
+          "bis": "2026-10-05"
+        }
+      ],
+      "kurz": "Porto"
     },
     {
       "slug": "fishermans-trail",
       "title": "Fisherman's Trail (Alentejo)",
       "zeitraum": "Sa 10.10. - So 11.10.2026",
       "status": "vorschlag",
-      "status_label": "Vorschlag -- bitte bestätigen",
+      "status_label": "Vorschlag – bitte bestätigen",
       "beschreibung": "Zweitages-Wanderung auf den Klippen im Alentejo (Rota Vicentina).",
-      "route_programm": "Zwei Etappen der Rota Vicentina \"Fisherman's Trail\" -- konkrete Etappenwahl noch offen (typ. 10-20 km/Etappe).",
+      "route_programm": "Zwei Etappen der Rota Vicentina \"Fisherman's Trail\" – konkrete Etappenwahl noch offen (typ. 10-20 km/Etappe).",
       "logistik": "Anreise in den Alentejo (Zug/Bus, Details offen). Übernachtung zwischen den Etappen nötig, Ort noch zu wählen.",
-      "hoehenmeter_strecke": "Abhängig von Etappenwahl -- Rota Vicentina Küstenpfad, moderate Höhenmeter, aber lange Distanz.",
+      "hoehenmeter_strecke": "Abhängig von Etappenwahl – Rota Vicentina Küstenpfad, moderate Höhenmeter, aber lange Distanz.",
       "budget_rabatte": "Rede Expressos Jugend-/Studententarif für Anreise prüfen. Unterkunft für 1 Nacht einkalkulieren.",
       "wetter_hinweis": "Früher Oktober, laut Planung noch stabiles Spätsommerwetter.",
-      "naechste_schritte": ["Konkrete Etappe wählen", "Unterkunft buchen", "Anreise klären", "Danach fix in Kalender"],
+      "naechste_schritte": [
+        "Konkrete Etappe wählen",
+        "Unterkunft buchen",
+        "Anreise klären",
+        "Danach fix in Kalender"
+      ],
       "begruendung": "Früher Oktober, noch stabiles Spätsommerwetter. Liegt vor der Zeitumstellung (25.10.) und vor dem Barcelona-Trip.",
-      "maps_link": "https://maps.google.com/?q=Rota+Vicentina+Fishermans+Trail"
+      "maps_link": "https://maps.google.com/?q=Rota+Vicentina+Fishermans+Trail",
+      "cluster": "Q2 -- Portugal Festland",
+      "terrain": "Meer & Küste",
+      "termine": [
+        {
+          "von": "2026-10-10",
+          "bis": "2026-10-11"
+        }
+      ],
+      "kurz": "Fisherman's"
     },
     {
       "slug": "algarve",
-      "title": "Algarve (Lagos, Faro, Sagres)",
-      "zeitraum": "Sa 17.10. - So 18.10.2026",
+      "title": "Algarve: Faro, Lagos & Sagres",
+      "zeitraum": "Fr 16.10. – So 18.10.2026 (Vorschlag, 3 Tage)",
       "status": "vorschlag",
-      "status_label": "Vorschlag -- bitte bestätigen",
-      "beschreibung": "Wochenendtrip an die Algarve-Küste.",
-      "route_programm": "Zielort noch offen -- Lagos, Faro oder Sagres zur Auswahl.",
-      "logistik": "Zug Lissabon → Algarve (CP Intercidades/Alfa Pendular). Unterkunft noch offen.",
-      "hoehenmeter_strecke": null,
-      "budget_rabatte": "CP-Zugticket mit Jugendrabatt (unter 26) prüfen.",
-      "wetter_hinweis": "Wassertemperatur im Oktober laut Planung noch angenehm.",
-      "naechste_schritte": ["Zielort festlegen", "Zugverbindung & Preis recherchieren", "Unterkunft buchen"],
-      "begruendung": "Wassertemperatur im Oktober noch angenehm. Ein Wochenende Abstand zum Fisherman's Trail zur Erholung.",
-      "maps_link": "https://maps.google.com/?q=Lagos+Algarve+Portugal"
-    },
-    {
-      "slug": "arrabida",
-      "title": "Parque Natural da Arrábida",
-      "zeitraum": "Sa 24.10. - So 25.10.2026",
-      "status": "vorschlag",
-      "status_label": "Vorschlag -- bitte bestätigen",
-      "beschreibung": "Klippen und türkises Wasser, als Tagesausflug (kein Übernachten nötig).",
-      "route_programm": "Tagesausflug ins Naturschutzgebiet Arrábida.",
-      "logistik": "Fertagus-Zug nach Setúbal, danach lokale Anbindung (Bus/zu Fuß) ins Naturschutzgebiet -- noch zu recherchieren.",
-      "hoehenmeter_strecke": null,
-      "budget_rabatte": "Fertagus-Ticket -- Jugendrabatt prüfen.",
-      "wetter_hinweis": null,
-      "naechste_schritte": ["Zug-/Busverbindung ab Setúbal ins Naturschutzgebiet recherchieren"],
-      "begruendung": "Guter Ausklang vor dem Barcelona-Wochenende (31.10.-01.11.).",
-      "maps_link": "https://maps.google.com/?q=Parque+Natural+da+Arrabida"
+      "status_label": "Vorschlag – bitte bestätigen",
+      "beschreibung": "Die Algarve von Ost nach West in drei Tagen: Faro mit der Lagunenlandschaft der Ria Formosa, Lagos mit den Felsklippen der Ponta da Piedade, und als Abschluss Sagres mit dem Cabo de São Vicente – dem südwestlichsten Punkt des europäischen Festlands.",
+      "route_programm": "Fr: Zug Lissabon → Faro (ca. 3 Std.), nachmittags Cidade Velha (Altstadt in der Stadtmauer) und Bootstour in die Ria Formosa zu den Barriereinseln (Ilha Deserta oder Farol) – Lagunensystem mit Flamingos und Watvögeln. Sa: Regionalzug Faro → Lagos (ca. 1:40). Ponta da Piedade mit Klippenpfad und Bootstour durch die Grotten, danach Praia do Camilo oder Praia Dona Ana. So: Bus ab Lagos nach Sagres (ca. 1:05) und weiter zum Cabo de São Vicente (10 Min.) – Fortaleza de Sagres, 60-Meter-Klippen, der Punkt, den die Römer das „Ende der Welt“ nannten. Abends Rückfahrt ab Lagos.",
+      "logistik": "Hinweg CP Intercidades Lissabon → Faro. Innerhalb der Algarve Regionalbahn Faro → Lagos, keine Reservierung nötig. Ab Lagos VAMUS-Bus (Linie 47) nach Sagres, alle vier Stunden – Fahrplan zwingend vorher prüfen, sonst hängt man fest. Rückweg NICHT über Faro, sondern direkt ab Lagos (Rede Expressos, ca. 4 Std.).",
+      "hoehenmeter_strecke": "Klippenpfad Ponta da Piedade: ca. 3–5 km, viele Treppen zu den Buchten. Cabo de São Vicente: flach, aber völlig ungeschützt am Klippenrand.",
+      "budget_rabatte": "25 % CP-Jugendrabatt auf Intercidades und Regional (nicht Alfa). Rede Expressos Jugendtarif für den Rückweg. Bootstouren an der Ponta da Piedade direkt am Steg verhandeln – die kleinen Boote der lokalen Fischer sind deutlich günstiger als vorgebuchte Touren. Zwei Nächte statt einer, dafür Hostel in Lagos statt Faro (billiger und zentraler für Tag 2 und 3).",
+      "wetter_hinweis": "Mitte Oktober ist das Wasser an der Algarve noch angenehm – sie liegt weiter südlich und hält die Wärme länger als die Lissabonner Küste. Bei Wellengang fahren die Grottenboote nicht raus, kurzfristig prüfen. Am Cabo de São Vicente ist es fast immer stürmisch, auch bei Sonne.",
+      "naechste_schritte": [
+        "Fr 16.10. als Fehltag mit dem Kursplan gegenchecken",
+        "Zug Lissabon → Faro als Intercidades buchen (Jugendrabatt)",
+        "Zwei Nächte buchen – Hostel in Lagos empfohlen",
+        "VAMUS-Buslinie 47 Lagos → Sagres im Fahrplan prüfen (nur alle 4 Std.)",
+        "Rückfahrt ab Lagos buchen"
+      ],
+      "begruendung": "ERWEITERT auf drei Tage. Mit nur zwei Tagen wären es gut acht Stunden in Zug und Bus gewesen, um Faro und Lagos zu verbinden – der dritte Tag nimmt genau diesen Druck raus und macht zusätzlich Sagres möglich. Das Cabo de São Vicente ist der südwestlichste Punkt Kontinentaleuropas und der logische Abschluss der Ost-West-Achse. Fr 16.10. wäre der einzige Fehltag.",
+      "maps_link": "https://maps.google.com/?q=Cabo+de+S%C3%A3o+Vicente+Sagres",
+      "cluster": "Q2 -- Portugal Festland",
+      "terrain": "Meer & Küste",
+      "termine": [
+        {
+          "von": "2026-10-16",
+          "bis": "2026-10-18"
+        }
+      ],
+      "kurz": "Algarve"
     },
     {
       "slug": "barcelona",
@@ -94,57 +250,715 @@
       "hoehenmeter_strecke": null,
       "budget_rabatte": "Studentenrabatte auf Flug-/Zugticket prüfen.",
       "wetter_hinweis": null,
-      "naechste_schritte": ["Flug/Zug buchen", "Unterkunft mit Freunden abstimmen"],
+      "naechste_schritte": [
+        "Flug/Zug buchen",
+        "Unterkunft mit Freunden abstimmen"
+      ],
       "begruendung": null,
-      "maps_link": "https://maps.google.com/?q=Barcelona"
+      "maps_link": "https://maps.google.com/?q=Barcelona",
+      "cluster": "Q4 -- International",
+      "terrain": "Stadt & Kultur",
+      "termine": [
+        {
+          "von": "2026-10-31",
+          "bis": "2026-11-01"
+        }
+      ],
+      "kurz": "Barcelona"
     },
     {
       "slug": "web-summit",
       "title": "Web Summit Lissabon",
       "zeitraum": "09.11. - 12.11.2026",
       "status": "bestaetigt",
-      "status_label": "Bestätigt -- Volunteer",
+      "status_label": "Bestätigt – Volunteer",
       "beschreibung": "Globales Tech-Event. Teilnahme als Volunteer bereits bestätigt.",
       "route_programm": null,
       "logistik": "Volunteer-Schichten (Zeiten noch offen). Veranstaltungsort: Feira Internacional de Lisboa (FIL).",
       "hoehenmeter_strecke": null,
-      "budget_rabatte": "Volunteer-Teilnahme meist mit vergünstigtem/kostenlosem Zugang verbunden -- Konditionen im Onboarding prüfen.",
+      "budget_rabatte": "Volunteer-Teilnahme meist mit vergünstigtem/kostenlosem Zugang verbunden – Konditionen im Onboarding prüfen.",
       "wetter_hinweis": null,
-      "naechste_schritte": ["Volunteer-Onboarding und Schichtplan abwarten"],
+      "naechste_schritte": [
+        "Volunteer-Onboarding und Schichtplan abwarten"
+      ],
       "begruendung": null,
-      "maps_link": "https://maps.google.com/?q=Feira+Internacional+de+Lisboa"
+      "maps_link": "https://maps.google.com/?q=Feira+Internacional+de+Lisboa",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Stadt & Kultur",
+      "termine": [
+        {
+          "von": "2026-11-09",
+          "bis": "2026-11-12"
+        }
+      ],
+      "kurz": "Web Summit"
+    },
+    {
+      "slug": "sintra-tag",
+      "title": "Sintra richtig (2 Tage, verteilt)",
+      "zeitraum": "Sa 14.11.2026 + Sa 23.01.2027 (Vorschlag, 2 Termine)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Stadt & Kultur / Wald",
+      "beschreibung": "Die größte Lücke direkt vor der Haustür: Sintra kam bisher nur als Randnotiz vor (Peninha als Spot). Tatsächlich ist die Kulturlandschaft Sintra UNESCO-Welterbe mit fünf eigenständigen Zielen, die zusammen locker zwei volle Tage füllen – bei 40 Minuten Anfahrt.",
+      "route_programm": "Tag A (Nov): Quinta da Regaleira mit dem Initiationsbrunnen (spiralförmiger Schacht in die Tiefe, das eigentliche Highlight Sintras) und Castelo dos Mouros – maurische Ruinenmauer über dem Ort, mit dem besten Blick. Tag B (Jan): Convento dos Capuchos (winziges Korkkloster im Wald, kaum besucht, das genaue Gegenteil der Paläste) und Monserrate (botanischer Park mit subtropischer Bepflanzung). Palácio da Pena optional – der ist der teuerste und vollste Punkt.",
+      "logistik": "CP Linha de Sintra ab Rossio, ca. 40 Min., über die Navegante-Karte abgedeckt. Vor Ort Bus 434 (Ringlinie zu Schloss und Burg) und Bus 435 (Monserrate/Capuchos) – oder zu Fuß über die Waldwege, das ist der schönere Weg.",
+      "hoehenmeter_strecke": "Zu Fuß vom Bahnhof zum Castelo dos Mouros: ca. 3 km, ca. 250 hm durch den Wald.",
+      "budget_rabatte": "WICHTIG: Parques de Sintra gibt auf die Hauptmonumente KEINEN normalen Studentenrabatt, die Tickets liegen über 10 EUR. ABER: Studierende, die eine akademische Arbeit dazu anfertigen, bekommen auf vorherige Genehmigung freien Zugang – das ist als Free Mover einen Versuch wert. Quinta da Regaleira gehört nicht zu Parques de Sintra und hat eigene Preise. Kostenlos bleiben immer: die Waldwege, die Peninha und der Ort selbst.",
+      "wetter_hinweis": "Winter ist in Sintra die BESTE Zeit: kaum Menschen, niedrigste Preise und der berühmte Nebel im Palastpark – genau die Stimmung, für die Sintra eigentlich bekannt ist. Nachteil: 9-15 Grad, mehr Regen, kürzere Tage. Früh los.",
+      "budget_hinweis": null,
+      "naechste_schritte": [
+        "Bei Parques de Sintra den akademischen Freizugang anfragen (Free Mover, NOVA IMS)",
+        "Zwei Termine festlegen – bewusst nicht an einem Wochenende",
+        "Quinta da Regaleira separat buchen"
+      ],
+      "begruendung": "Bewusst auf ZWEI Termine gesplittet statt auf ein Wochenende: Sintra an einem Tag durchzuhetzen ist genau der Fehler, den alle Touristen machen. Der erste Termin (Sa 14.11.) füllt außerdem das Wochenende, das durch das Verschieben von Nazaré frei geworden ist – ohne dass ihr Lissabon verlasst.",
+      "maps_link": "https://maps.google.com/?q=Quinta+da+Regaleira+Sintra",
+      "termine": [
+        {
+          "von": "2026-11-14",
+          "bis": "2026-11-14"
+        },
+        {
+          "von": "2027-01-23",
+          "bis": "2027-01-23"
+        }
+      ],
+      "kurz": "Sintra-Paläste"
     },
     {
       "slug": "marrakesch",
       "title": "Marrakesch",
       "zeitraum": "Fr 20.11. - Mo 23.11.2026",
-      "status": "vorschlag",
-      "status_label": "Vorschlag -- bitte bestätigen",
+      "status": "bestaetigt",
+      "status_label": "Bestätigt",
       "beschreibung": "Flucht vor dem feuchtkalten Lissabon-Wetter.",
       "route_programm": null,
       "logistik": "Flug ab Lissabon (Anbieter/Preis offen). Unterkunft offen.",
       "hoehenmeter_strecke": null,
       "budget_rabatte": "Flugpreise vergleichen, Studentenrabatte auf Flüge prüfen.",
       "wetter_hinweis": "Ende November laut Planung noch mild-warm, bevor es kühler wird.",
-      "naechste_schritte": ["Flug recherchieren und buchen", "Unterkunft recherchieren und buchen"],
+      "naechste_schritte": [
+        "Flug recherchieren und buchen",
+        "Unterkunft recherchieren und buchen"
+      ],
       "begruendung": "Direkt nach dem Web Summit ist Erholungszeit vorhanden. Ende November ist es in Marrakesch noch mild-warm.",
-      "maps_link": "https://maps.google.com/?q=Marrakesch"
+      "maps_link": "https://maps.google.com/?q=Marrakesch",
+      "cluster": "Q4 -- International",
+      "terrain": "Wüste & Orient",
+      "termine": [
+        {
+          "von": "2026-11-20",
+          "bis": "2026-11-23"
+        }
+      ],
+      "kurz": "Marrakesch"
+    },
+    {
+      "hoehenmeter_strecke": "Flach. Optional Wanderung um den Cromeleque dos Almendres, ca. 6 km.",
+      "wetter_hinweis": "Winter ist für Sterne die BESTE Zeit: klare, kalte Luft, Orion und Wintersechseck stehen hoch. Die Region hat über 280 wolkenfreie Naechte im Jahr. Neumond-Termin abgleichen – bei Vollmond bringt die ganze Fahrt wenig. Warm anziehen, nachts im Alentejo einstellig.",
+      "begruendung": "Deckt zwei bisher komplett fehlende Dimensionen ab: portugiesisches Binnenland und ein Nacht-Erlebnis. Ausserdem ist Di 01.12. Feiertag, Mo 30.11. wäre der einzige Brückentag.",
+      "route_programm": "Tag 1 Évora: Templo Romano, Capela dos Ossos, Stadtmauer, Cromeleque dos Almendres (Megalithkreis, aelter als Stonehenge). Abends Weiterfahrt nach Monsaraz. Nacht: Sternenbeobachtung am Observatório do Lago Alqueva (OLA) mit Teleskopfuehrung. Tag 2 Monsaraz (Burgdorf über dem See) und Rückfahrt.",
+      "naechste_schritte": [
+        "Neumond-Datum Ende November 2026 prüfen und Termin danach ausrichten",
+        "OLA-Führung anfragen (Verfügbarkeit + Studentenpreis)",
+        "Entscheiden: Tagesausflug Évora oder Verlängerung bis Di 01.12. (Feiertag Restauração da Independência)"
+      ],
+      "slug": "evora-alqueva",
+      "title": "Évora & Dark Sky Alqueva",
+      "zeitraum": "Sa 28.11. - So 29.11.2026 (Vorschlag, optional bis Di 01.12.)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "cluster": "Q2 -- Portugal Festland",
+      "terrain": "Binnenland & Sternenhimmel",
+      "beschreibung": "Der Alentejo im Binnenland – bisher taucht er nur als Küstenwanderung auf. Évora ist UNESCO-Welterbe (Roemertempel, Knochenkapelle), und die Region um den Alqueva-Stausee war weltweit das erste zertifizierte Starlight Tourism Destination.",
+      "logistik": "Rede Expressos Lissabon -> Évora ca. 1h30. Weiter nach Monsaraz/Reguengos nur mit lokalem Bus oder Mietwagen – für die Nachtbeobachtung realistisch nur mit Auto oder gebuchter Tour ab Évora.",
+      "budget_rabatte": "Rede Expressos Jugendtarif. Évora-Museen mit Studentenausweis ermaessigt. OLA-Führung kostet – Preise und Studentenrabatt vorab anfragen. Günstigste Variante: eigene Beobachtung ohne Teleskop, der Himmel ist auch so spektakulaer.",
+      "maps_link": "https://maps.google.com/?q=Observat%C3%B3rio+do+Lago+Alqueva+Monsaraz",
+      "termine": [
+        {
+          "von": "2026-11-28",
+          "bis": "2026-11-29"
+        }
+      ],
+      "kurz": "Évora"
     },
     {
       "slug": "madeira",
       "title": "Madeira",
-      "zeitraum": "Sa 05.12. - So 06.12.2026",
+      "zeitraum": "Sa 05.12. - Di 08.12.2026",
+      "status": "bestaetigt",
+      "status_label": "Bestätigt",
+      "beschreibung": "Mildes Klima, perfekt für extrem höhenmeterreiche Wanderungen (Pico Ruivo / Pico do Areeiro). Von Sa-So auf vier Tage verlängert.",
+      "route_programm": "Tag 1 Anreise + Funchal/Levada-Einlaufrunde. Tag 2 PR1 Pico do Areeiro -> Pico Ruivo (ca. 7 km einfach, ca. 1.100 hm kumuliert, Tunnelabschnitte -> Stirnlampe zwingend). Tag 3 Levada-Tour (z.B. Levada do Caldeirão Verde oder 25 Fontes) als Schlechtwetter-Alternative. Tag 4 Rückflug.",
+      "logistik": "Flug LIS-FNC ca. 1h45. Vom Flughafen Bus/Transfer nach Funchal. Zum Areeiro entweder Miettaxi (vorbestellen, Start vor Sonnenaufgang) oder Mietwagen für einen Tag.",
+      "hoehenmeter_strecke": "PR1 Areeiro-Ruivo: ca. 7 km einfach, ca. 1.100 hm kumuliert, 3-4 Std. je Richtung. Pico Ruivo 1.862 m.",
+      "budget_rabatte": "Flug + Unterkunft vergleichen, vor der teuren Weihnachtszeit. Nur EIN Fehltag nötig (Mo 07.12.), weil Di 08.12. Feiertag ist (Imaculada Conceição).",
+      "wetter_hinweis": "Am Areeiro liegt sehr häufig Wolke/Nebel – deshalb ist der zusaetzliche Puffertag der eigentliche Grund für die Verlängerung. Bei starkem Wind wird der PR1 gesperrt, Status vorab auf visitmadeira/IFCN prüfen.",
+      "naechste_schritte": [
+        "Flug LIS-FNC buchen (4 Tage statt 2)",
+        "Mo 07.12. als einzigen Fehltag mit dem Kursplan gegenchecken",
+        "Unterkunft Funchal buchen",
+        "Taxi/Transfer zum Pico do Areeiro vorbestellen",
+        "PR1-Sperrungsstatus vor Abflug prüfen"
+      ],
+      "begruendung": "KORREKTUR gegenueber der alten Sa-So-Planung: Der PR1 braucht einen ganzen Tag plus Wetterpuffer – ein Wochenende reicht dafuer nicht. Di 08.12. ist portugiesischer Feiertag, Mo 07.12. damit einziger Brückentag. Zusaetzlich: 05.12. ist euer Jahrestag und 06.12. Mines Geburtstag – der Trip faellt genau darauf.",
+      "maps_link": "https://maps.google.com/?q=Pico+Ruivo+Madeira",
+      "cluster": "Q3 -- Portugal Inseln",
+      "terrain": "Berge & Höhenmeter",
+      "termine": [
+        {
+          "von": "2026-12-05",
+          "bis": "2026-12-08"
+        }
+      ],
+      "kurz": "Madeira"
+    },
+    {
+      "hoehenmeter_strecke": null,
+      "wetter_hinweis": "Termine für 2026/27 sind noch nicht veröffentlicht. Erfahrungswert der Vorjahre: Ende November bis Anfang Januar. Sobald das Programm online ist, tragen wir den konkreten Tag ein.",
+      "begruendung": "Nach acht Reisewochenenden in Folge ist ein Wochenende ohne Anreise sinnvoll. Ausserdem ist es das letzte Wochenende vor dem Heimflug – der richtige Zeitpunkt, Lissabon selbst noch einmal zu erleben statt es nur als Basislager zu benutzen.",
+      "route_programm": "Wonderland Lisboa (Riesenrad, Eisbahn, Markt) im Parque Eduardo VII. Praça do Comércio mit der grossen Lichtinstallation. Optional Sonntag: Sintra im Winter – ohne Touristenmassen, Nebel im Palastpark, das ist die eigentlich stimmungsvolle Jahreszeit dort.",
+      "naechste_schritte": [
+        "Ab Oktober die offiziellen Wonderland-Lisboa-Termine 2026/27 prüfen",
+        "Alternative für dieses Wochenende offenhalten: Sevilla per Nachtbus (siehe Reserve-Pool)"
+      ],
+      "slug": "lisboa-advent",
+      "title": "Lissabon im Advent (Wonderland & Sintra)",
+      "zeitraum": "Sa 12.12. - So 13.12.2026 (Vorschlag)",
       "status": "vorschlag",
-      "status_label": "Vorschlag -- bitte bestätigen",
-      "beschreibung": "Mildes Klima, perfekt für extrem höhenmeterreiche Wanderungen (z.B. Pico Ruivo).",
-      "route_programm": "Wanderung im Bereich Pico Ruivo (ggf. Pico Ruivo ↔ Pico do Areeiro) -- genaue Routenwahl noch offen.",
-      "logistik": "Flug nach Madeira, Unterkunft und Wandertour-Details noch offen.",
-      "hoehenmeter_strecke": "Pico-Ruivo-Region ist für hohe Höhenmeter bekannt -- genaue Werte je nach Routenwahl noch zu recherchieren.",
-      "budget_rabatte": "Flug + Unterkunft vergleichen, ggf. günstiger vor der teuren Weihnachts-Reisezeit.",
-      "wetter_hinweis": "Mildes Klima, im Sommer für diese Tour zu heiß -- Dezember gut geeignet.",
-      "naechste_schritte": ["Flug buchen", "Wanderroute festlegen (z.B. Pico Ruivo - Pico do Areeiro)"],
-      "begruendung": "Erstes Dezember-Wochenende, vor der teureren Weihnachts-Reisezeit und mit noch angenehmer Tageslichtlänge.",
-      "maps_link": "https://maps.google.com/?q=Pico+Ruivo+Madeira"
+      "status_label": "Vorschlag – bitte bestätigen",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Stadt & Kultur",
+      "beschreibung": "Bewusst KEIN Reisewochenende: das letzte volle Wochenende vor dem Heimflug am 18.12. in Lissabon selbst. Wonderland Lisboa im Parque Eduardo VII gilt als einer der schönsten Weihnachtsmaerkte Europas (Auszeichnung Best Sunny Christmas Market).",
+      "logistik": "Alles mit der Navegante-Karte erreichbar. Sintra per CP Linha de Sintra ab Rossio, ca. 40 Min.",
+      "budget_rabatte": "Eintritt zum Wonderland-Gelaende ist frei, die Attraktionen (Riesenrad, Eisbahn) kosten einzeln. Sintra: Parque da Pena mit Studentenrabatt, oder kostenlos die Waldwege um die Peninha.",
+      "maps_link": "https://maps.google.com/?q=Parque+Eduardo+VII+Lisboa",
+      "termine": [
+        {
+          "von": "2026-12-12",
+          "bis": "2026-12-13"
+        }
+      ],
+      "kurz": "Advent"
+    },
+    {
+      "hoehenmeter_strecke": "8-12 km, komplett flach",
+      "wetter_hinweis": "Die Zugvogel-Saison laeuft etwa Oktober bis Februar, im Januar ist die Dichte am hoechsten. Fernglas hilft enorm (siehe Packliste). Morgens und bei ablaufendem Wasser sind die Vogelzahlen am größten – Tidenkalender kurz checken.",
+      "begruendung": "Perfekter Klausurzeit-Trip: halber Tag, praktisch kostenlos, keine Übernachtung, kein Reisestress – und trotzdem ein echtes Naturerlebnis. Füllt das leere Januar-Wochenende direkt nach der Rückkehr.",
+      "route_programm": "Reserva Natural do Estuário do Tejo, Zugang über Alcochete oder das Besucherzentrum in Ponta da Erva/Vila Franca de Xira. Flache Wanderung auf den Deichen entlang der Salinen, 8-12 km je nach Route.",
+      "naechste_schritte": [
+        "Zugang und Öffnungszeiten des Besucherzentrums prüfen",
+        "Tidenkalender für den Termin checken",
+        "Fernglas auf die Packliste (erledigt)"
+      ],
+      "slug": "tejo-flamingos",
+      "title": "Estuário do Tejo – Flamingos & Zugvögel",
+      "zeitraum": "Sa 09.01.2027 (Halbtags-Vorschlag)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Binnenland & Natur",
+      "beschreibung": "Das Tejo-Ästuar ist eines der wichtigsten Zugvogel-Feuchtgebiete Europas und liegt direkt vor der Haustuer – praktisch kein Erasmus-Student geht dorthin. Im Winter stehen dort Tausende Flamingos.",
+      "logistik": "Fähre ab Terreiro do Paco oder Cais do Sodre nach Barreiro/Montijo, weiter mit dem Bus nach Alcochete. Alternativ CP-Vorortzug nach Vila Franca de Xira.",
+      "budget_rabatte": "Fähre und Vorortzug laufen über die Navegante-Karte – also praktisch kostenlos, wenn das Monatsabo schon laeuft. Der günstigste Trip der ganzen Planung.",
+      "maps_link": "https://maps.google.com/?q=Reserva+Natural+do+Estu%C3%A1rio+do+Tejo",
+      "termine": [
+        {
+          "von": "2027-01-09",
+          "bis": "2027-01-09"
+        }
+      ],
+      "kurz": "Flamingos"
+    },
+    {
+      "hoehenmeter_strecke": "Küstenwanderung Nazaré -> Sitio über den Klippenweg, ca. 3 km, ca. 110 hm (oder Standseilbahn).",
+      "wetter_hinweis": "ENTSCHEIDEND: Der Termin haengt vom Swell ab, nicht vom Kalender. Die Challenge wird erst bei Wellen über 8 m aktiviert und typischerweise nur 2-3 Tage vorher angekündigt. Große Swells kommen meist mit Atlantiktiefs im November bis Februar. Praktisch: Wellenvorhersage (Windguru/Magicseaweed Praia do Norte) laufend im Blick behalten und flexibel zuschlagen.",
+      "begruendung": "VERSCHOBEN von 14./15.11. nach Januar. Zwei Gründe: Erstens war der November-Termin der härteste Engpass des Semesters – vier Tage Volunteer-Schichten auf dem Web Summit (09.-12.11.), direkt danach ein Reisewochenende, direkt danach Marrakesch (ab Fr 20.11.). Zweitens passt Januar sachlich besser: Das Wettkampffenster läuft bis 31.03.2027, und die großen Atlantiktiefs kommen typischerweise von November bis Februar. Nebeneffekt: Der Januar war nach dem Streichen der Serra da Estrela wieder komplett leer.",
+      "route_programm": "Aussichtspunkt Forte de São Miguel Arcanjo (Leuchtturm) über der Praia do Norte, Standseilbahn hoch zum Sitio, Altstadt Nazaré. Zweiter Tag: Óbidos – komplett ummauerte Mittelalterstadt, 40 Min. entfernt, oder Peniche/Cabo Carvoeiro.",
+      "naechste_schritte": [
+        "Wellenvorhersage-Alert für Praia do Norte einrichten",
+        "Rede-Expressos-Verbindung und Jugendtarif prüfen",
+        "Klausurplan gegenchecken (Prüfungszeitraum 04.-30.01.)",
+        "Reserve-Termine offenhalten: 23./24.01. und 30./31.01."
+      ],
+      "slug": "nazare-bigwave",
+      "title": "Nazaré Big Waves + Óbidos",
+      "zeitraum": "Sa 16.01. - So 17.01.2027 (Vorschlag, swell-abhängig)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "cluster": "Q2 -- Portugal Festland",
+      "terrain": "Meer & Küste / Naturschauspiel",
+      "beschreibung": "Praia do Norte in Nazaré produziert durch den Nazaré-Tiefseecanyon die größten surfbaren Wellen der Welt (Weltrekord 26,2 m). Das Wettkampffenster der Tudor Nazaré Big Wave Challenge laeuft vom 01.11.2026 bis 31.03.2027 – genau in eurem Semester.",
+      "logistik": "Rede Expressos Bus Lissabon (Sete Rios) -> Nazaré, ca. 1h45-2 Std. Weiter nach Óbidos per Bus. Guenstige Pension in Nazaré (Nebensaison).",
+      "budget_rabatte": "Rede Expressos Jugend-/Studententarif prüfen. Zuschauen an der Praia do Norte ist kostenlos. Óbidos: Stadtmauer frei begehbar.",
+      "maps_link": "https://maps.google.com/?q=Forte+de+S%C3%A3o+Miguel+Arcanjo+Nazar%C3%A9",
+      "termine": [
+        {
+          "von": "2027-01-16",
+          "bis": "2027-01-17"
+        }
+      ],
+      "kurz": "Nazaré"
+    },
+    {
+      "hoehenmeter_strecke": "Cabo Espichel: Küstenwanderung 6-10 km, wenige Höhenmeter, aber sehr exponiert.",
+      "wetter_hinweis": "Cabo Espichel ist extrem windexponiert und im Januar rau – bei Sturm nicht auf die Klippenkante.",
+      "begruendung": "Ein bewusst ruhiger, kostenloser Abschluss nach den Klausuren, ohne Buchungsstress. Ausserdem der Reserve-Slot: Faellt einer der Wetterfenster-Trips (Nazaré, Serra da Estrela) aus, wird dieses Wochenende zum Nachholtermin.",
+      "route_programm": "Samstag: Marvila & Beato – ehemalige Industriehallen, heute Galerien, Streetart und Craft-Beer-Brauereien (Dois Corvos, Musa, Lince), dazu 8 Marvila. Sonntag: Cabo Espichel – einsames Kap suedlich von Sesimbra mit verlassenem Wallfahrtsort auf der Klippe und versteinerten Dinosaurier-Fußspuren im Fels.",
+      "naechste_schritte": [
+        "Busfahrplan Sesimbra -> Cabo Espichel prüfen (sehr dünn getaktet)",
+        "Prüfungsplan abgleichen – Prüfungszeitraum endet 30.01."
+      ],
+      "slug": "abschluss-lisboa",
+      "title": "Abschluss-Wochenende: Ost-Lissabon & Cabo Espichel",
+      "zeitraum": "Sa 30.01. - So 31.01.2027 (Vorschlag)",
+      "status": "vorschlag",
+      "status_label": "Vorschlag – bitte bestätigen",
+      "cluster": "Q1 -- Lissabon & Direktumgebung",
+      "terrain": "Stadt & Kultur / Meer",
+      "beschreibung": "Letztes Wochenende, direkt nach dem Ende des Pruefungszeitraums (30.01.). Zwei Seiten Lissabons, die im ganzen Semester bisher gar nicht vorkamen: der industrielle Osten und das suedliche Kap.",
+      "logistik": "Marvila per Metro/Bus mit der Navegante-Karte. Cabo Espichel: Fähre nach Cacilhas, Bus nach Sesimbra, dort lokaler Bus (faehrt selten – Fahrplan zwingend vorher prüfen).",
+      "budget_rabatte": "Marvila kostet nur, was ihr trinkt. Cabo Espichel ist komplett kostenlos. Alles innerhalb der Navegante-Zone.",
+      "maps_link": "https://maps.google.com/?q=Cabo+Espichel",
+      "termine": [
+        {
+          "von": "2027-01-30",
+          "bis": "2027-01-31"
+        }
+      ],
+      "kurz": "Abschluss"
     }
-  ]
+  ],
+  "_reserve_pool": [
+    {
+      "titel": "Serra da Estrela / Torre (1.993 m)",
+      "cluster": "Q2 -- Portugal Festland",
+      "terrain": "Winter & Schnee / Berge",
+      "warum": "Auf deinen Wunsch aus dem aktiven Plan genommen und hier geparkt. Fachlich bleibt es die einzige Schnee-Option des Semesters (Schnee verlässlich Januar bis Mitte Februar, Torre ist der höchste Punkt des Festlands). Der Grund gegen den Termin war der Prüfungszeitraum 04.-30.01. – wenn dein Klausurplan früh durch ist, wäre 23./24.01. der letzte realistische Slot. Sonst bleibt der Bergpart des Semesters allein bei Madeira."
+    },
+    {
+      "titel": "Peneda-Gerês Nationalpark",
+      "cluster": "Q2 -- Portugal Festland",
+      "terrain": "Binnenland & Wasserfaelle",
+      "warum": "Portugals einziger Nationalpark. Granithochland, Wasserfaelle (Arado, Pincães), Garranos (Wildpferde), Dörfer an der spanischen Grenze. Weniger als 2 Std. ab Porto – laesst sich an den Porto-Trip anhaengen oder als eigenes Wochenende ab Porto planen."
+    },
+    {
+      "titel": "Aldeias do Xisto / Serra da Lousã",
+      "cluster": "Q2 -- Portugal Festland",
+      "terrain": "Binnenland & Wandern",
+      "warum": "Zwölf Schieferdörfer im Landesinneren (Talasnal, Casal Novo, Cerdeira). Wanderweg PR2 verbindet Burg Lousã mit den Dörfern. Herbst ist laut allen Quellen die beste Zeit. Sehr low-budget, ab Coimbra erreichbar."
+    },
+    {
+      "titel": "Sevilla / Andalusien",
+      "cluster": "Q4 -- International",
+      "terrain": "Stadt & Kultur",
+      "warum": "Günstigste Auslandsoption überhaupt: Nachtbus (FlixBus/ALSA) ab Lissabon, ca. 7 Std., oft unter 30 EUR. Man spart eine Übernachtung. Im Winter mild (17-18 Grad). Alcázar und Kathedrale mit Studentenrabatt."
+    },
+    {
+      "titel": "Teneriffa / La Palma (Kanaren)",
+      "cluster": "Q4 -- International",
+      "terrain": "Berge & Höhenmeter",
+      "warum": "Alternative zur Serra da Estrela, falls der Januar-Schneetrip am Klausurplan scheitert. Teide 3.715 m, ganzjährig wanderbar, sehr günstige Flüge ab Lissabon. La Palma ist ausserdem ebenfalls Dark-Sky-Reservat."
+    }
+  ],
+  "_wochenend_matrix": [
+    {
+      "wochenende": "Sa 05. - So 06.09.",
+      "status": "lissabon",
+      "was": "Welcome Week + erster Meerkontakt",
+      "hinweis": "Welcome Tour (Fr 04.), Welcome Session + Analytica Festival (Sa 05. ab 17 Uhr) an der NOVA IMS. Tagsüber ist Sa frei, So ganz – Carcavelos oder Cascais als lockerer Einstieg, alles über die Navegante-Karte."
+    },
+    {
+      "wochenende": "Sa 12. - So 13.09.",
+      "status": "lissabon",
+      "was": "Cycling an der Marginal + Arrábida",
+      "hinweis": "Sa Radtour (Badestopp Carcavelos möglich), So Arrábida – VORGEZOGEN aus dem Oktober, weil das Wasser jetzt am wärmsten ist."
+    },
+    {
+      "wochenende": "Sa 19. - So 20.09.",
+      "status": "lissabon",
+      "was": "Coastal Trekking + Sintra-Küste",
+      "hinweis": "Sa Cabo da Roca zur Praia da Ursa (baden), So Eléctrico de Sintra zur Praia das Maçãs und Azenhas do Mar. Do 24.09. Gulbenkian-Konzert."
+    },
+    {
+      "wochenende": "Sa 26. - So 27.09.",
+      "status": "lissabon",
+      "was": "Cascais & Estoril + Ericeira",
+      "hinweis": "Sa Cascais/Boca do Inferno mit Baden (wärmstes Wasser des Jahres, ca. 20 Grad), So Ericeira."
+    },
+    {
+      "wochenende": "Fr 02. - Mo 05.10.",
+      "status": "auswaerts",
+      "was": "Porto, Douro & Minho",
+      "hinweis": "4 Tage. Mo 05.10. Feiertag, Fr 02.10. einziger Fehltag."
+    },
+    {
+      "wochenende": "Sa 10. - So 11.10.",
+      "status": "auswaerts",
+      "was": "Fisherman's Trail, Alentejo",
+      "hinweis": "2 Tage Küstenwanderung."
+    },
+    {
+      "wochenende": "Fr 16. – So 18.10.",
+      "status": "auswaerts",
+      "was": "Algarve: Faro, Lagos & Sagres",
+      "hinweis": "ERWEITERT auf 3 Tage – Fr 16.10. als einziger Fehltag. Neu dabei: Cabo de São Vicente, der südwestlichste Punkt Kontinentaleuropas. Parallel läuft Doclisboa (15.–25.10.)."
+    },
+    {
+      "wochenende": "Sa 24. - So 25.10.",
+      "status": "lissabon",
+      "was": "FREI – Puffer",
+      "hinweis": "Arrábida ist in den September gewandert. Dieses Wochenende bleibt bewusst leer: viertes nach drei Reisewochenenden in Folge, Zeitumstellung am 25.10., Doclisboa läuft noch."
+    },
+    {
+      "wochenende": "Sa 31.10. - So 01.11.",
+      "status": "auswaerts",
+      "was": "Barcelona",
+      "hinweis": "Bestätigt. So 01.11. ist in Portugal Feiertag (Allerheiligen)."
+    },
+    {
+      "wochenende": "Sa 07. - So 08.11.",
+      "status": "lissabon",
+      "was": "LEFFEST-Eröffnungswochenende",
+      "hinweis": "Lisbon & Estoril Film Festival, 06.-15.11. Ideales Wochenende dafür – ihr seid da und Web Summit startet erst Montag."
+    },
+    {
+      "wochenende": "Sa 14. - So 15.11.",
+      "status": "lissabon",
+      "was": "Sintra Tag A + Erholung",
+      "hinweis": "NEU freigeräumt: Nazaré ist nach Januar verschoben. Nach vier Tagen Volunteer-Schichten (Web Summit Mo-Do) und vor Marrakesch (ab Fr 20.) braucht ihr dieses Wochenende."
+    },
+    {
+      "wochenende": "Sa 21. - So 22.11.",
+      "status": "auswaerts",
+      "was": "Marrakesch",
+      "hinweis": "Bestätigt, Fr 20. - Mo 23.11."
+    },
+    {
+      "wochenende": "Sa 28. - So 29.11.",
+      "status": "auswaerts",
+      "was": "Évora & Dark Sky Alqueva",
+      "hinweis": "Optional bis Di 01.12. (Feiertag). Erster Streichkandidat, falls es zu dicht wird – Évora geht auch als Tagesausflug."
+    },
+    {
+      "wochenende": "Sa 05. - So 06.12.",
+      "status": "auswaerts",
+      "was": "Madeira",
+      "hinweis": "Bestätigt, Sa 05. - Di 08.12. Jahrestag + Mines Geburtstag."
+    },
+    {
+      "wochenende": "Sa 12. - So 13.12.",
+      "status": "lissabon",
+      "was": "Lissabon im Advent",
+      "hinweis": "Wonderland Lisboa, Praça do Comércio. Letztes volles Wochenende vor dem Heimflug."
+    },
+    {
+      "wochenende": "Sa 19. - So 20.12.",
+      "status": "deutschland",
+      "was": "Deutschland",
+      "hinweis": "Heimflug Fr 18.12. ACHTUNG: NOVA-IMS-Nachholtermine am 21./22.12. prüfen."
+    },
+    {
+      "wochenende": "Sa 26. - So 27.12.",
+      "status": "deutschland",
+      "was": "Deutschland",
+      "hinweis": "Weihnachten."
+    },
+    {
+      "wochenende": "Sa 02. - So 03.01.",
+      "status": "deutschland",
+      "was": "Deutschland",
+      "hinweis": "Rückflug Do 07.01."
+    },
+    {
+      "wochenende": "Sa 09. - So 10.01.",
+      "status": "lissabon",
+      "was": "Estuário do Tejo, Flamingos (Sa)",
+      "hinweis": "Halber Tag, praktisch kostenlos. Prüfungszeitraum läuft seit 04.01."
+    },
+    {
+      "wochenende": "Sa 16. - So 17.01.",
+      "status": "auswaerts",
+      "was": "Nazaré Big Waves + Óbidos",
+      "hinweis": "VERSCHOBEN aus dem November. Swell-abhängig – bei flacher See auf 23./24.01. schieben."
+    },
+    {
+      "wochenende": "Sa 23. - So 24.01.",
+      "status": "lissabon",
+      "was": "Lernwochenende + Sintra Tag B",
+      "hinweis": "Reserve-Slot für Nazaré, falls der Swell nicht mitspielt."
+    },
+    {
+      "wochenende": "Sa 30. - So 31.01.",
+      "status": "lissabon",
+      "was": "Abschluss: Marvila/Beato & Cabo Espichel",
+      "hinweis": "Direkt nach Prüfungsende (30.01.). Kostenlos, ohne Buchungsstress."
+    }
+  ],
+  "_lissabon_tage": [
+    {
+      "titel": "Belém-Tag",
+      "wann": "z.B. Sa 26.09. oder ein freier Sonntag",
+      "warum": "Kam bisher nur als Durchfahrt beim Cycling vor. Mosteiro dos Jerónimos und Torre de Belém sind beide UNESCO-Welterbe, dazu MAAT, Padrão dos Descobrimentos und die Pastéis de Belém. Das ist ein eigener Tag, kein Zwischenstopp.",
+      "tipp": "Die städtischen Museen sind an bestimmten Sonntagvormittagen ermäßigt oder frei – vorher auf der Museums-Website prüfen. Das begehbare Dach des MAAT ist immer kostenlos."
+    },
+    {
+      "titel": "Fado-Abend in Alfama oder Mouraria",
+      "wann": "jederzeit unter der Woche",
+      "warum": "Fehlte im ganzen Plan komplett – dabei ist Fado UNESCO-immaterielles Kulturerbe und die Kunstform, für die Lissabon steht. Das ist kein Party-Ding, sondern ein stiller, sehr intensiver Abend.",
+      "tipp": "Meidet die Touristenlokale mit Menü und Show. In kleinen Tascas (z.B. Tasca do Chico) gibt es „Fado Vadio“ – Laien singen spontan, Eintritt frei, nur Getränke. Das Museu do Fado in Alfama erklärt vorher den Kontext."
+    },
+    {
+      "titel": "Cascais & Estoril als eigener Tag",
+      "wann": "ein freier Samstag im September oder Januar",
+      "warum": "Steht bisher nur als Spot in der Liste, hatte aber nie einen eigenen Termin. 40 Min. mit der Linha de Cascais, komplett über die Navegante-Karte abgedeckt.",
+      "tipp": "Boca do Inferno (Felsentor), Casa das Histórias Paula Rego und der Museu Condes de Castro Guimarães. Bei starkem Wind: Praia do Guincho, dort steht die Gischt senkrecht in der Luft."
+    },
+    {
+      "titel": "Doclisboa",
+      "wann": "15. - 25.10.2026",
+      "warum": "Internationales Dokumentarfilmfestival. Überschneidet sich mit dem Algarve- und dem Arrábida-Wochenende, läuft aber zehn Tage – unter der Woche gut machbar.",
+      "tipp": "Studententickets prüfen, Vorstellungen laufen u.a. im Culturgest und im Cinema São Jorge."
+    },
+    {
+      "titel": "LEFFEST – Lisbon & Estoril Film Festival",
+      "wann": "06. - 15.11.2026",
+      "warum": "Das Eröffnungswochenende (07./08.11.) liegt genau in einem eurer freien Wochenenden. Web Summit startet erst am Montag danach.",
+      "tipp": "Findet an mehreren Orten zwischen Lissabon und Estoril statt – Spielorte vorher checken, sonst pendelt man unnötig."
+    },
+    {
+      "titel": "São Martinho / Magusto",
+      "wann": "Mi 11.11.2026",
+      "warum": "Kastanien und Jeropiga, die ganze Stadt riecht danach. Fällt mitten in den Web Summit, aber die Kastanienstände stehen den ganzen Spätherbst über in der Innenstadt.",
+      "tipp": "„Verão de São Martinho“ ist die portugiesische Bezeichnung für die kurze Warmphase um den 11.11. – oft das letzte gute Wetterfenster des Jahres."
+    }
+  ],
+  "_saison_audit": [
+    {
+      "trip": "Cycling Marginal",
+      "termin": "Sa 12.09.",
+      "urteil": "optimal",
+      "warum": "Wärmster Monat, Wasser ca. 18-20 Grad. Badestopp in Carcavelos möglich."
+    },
+    {
+      "trip": "Arrábida",
+      "termin": "So 13.09.",
+      "urteil": "korrigiert",
+      "warum": "Lag auf 24.10. bei ca. 17 Grad Wassertemperatur. Vorgezogen – das ist der Türkiswasser-Spot, der gehört ins Warme."
+    },
+    {
+      "trip": "Coastal Trekking",
+      "termin": "Sa 19.09.",
+      "urteil": "optimal",
+      "warum": "Baden an der Praia da Ursa noch angenehm, Steilküste bei stabilem Wetter sicher begehbar."
+    },
+    {
+      "trip": "Sintra-Küste & Cascais",
+      "termin": "So 20.09. + Sa 26.09.",
+      "urteil": "neu ergänzt",
+      "warum": "Cascais hat im September mit ca. 20 Grad das wärmste Wasser des Jahres."
+    },
+    {
+      "trip": "Ericeira",
+      "termin": "So 27.09.",
+      "urteil": "optimal",
+      "warum": "Atlantik-Swell setzt ein, Wasser noch warm genug für eine Surfstunde."
+    },
+    {
+      "trip": "Porto, Douro & Minho",
+      "termin": "Fr 02. - Mo 05.10.",
+      "urteil": "gut, mit Vorbehalt",
+      "warum": "Weinlese im Douro, schönste Zeit. ABER: Porto bekommt mit ca. 1.213 mm im Jahr rund doppelt so viel Regen wie Lissabon (ca. 700 mm). Anfang Oktober ist noch das kleinere Übel – im November wären es 163 mm und 15 Regentage. Hardshell einpacken."
+    },
+    {
+      "trip": "Fisherman's Trail",
+      "termin": "Sa 10. - So 11.10.",
+      "urteil": "optimal",
+      "warum": "Noch stabiles Spätsommerwetter, vor der Zeitumstellung."
+    },
+    {
+      "trip": "Algarve: Faro, Lagos & Sagres",
+      "termin": "Fr 16. – So 18.10.",
+      "urteil": "gut",
+      "warum": "Letztes realistisches Badewochenende. Die Algarve liegt weiter südlich und hält die Wärme länger als die Lissabonner Küste. Der dritte Tag nimmt den Fahrtdruck raus."
+    },
+    {
+      "trip": "Barcelona",
+      "termin": "Sa 31.10. - So 01.11.",
+      "urteil": "unkritisch",
+      "warum": "Stadttrip, weitgehend wetterunabhängig."
+    },
+    {
+      "trip": "Sintra-Paläste Tag A",
+      "termin": "Sa 14.11.",
+      "urteil": "bewusst spät",
+      "warum": "Winter ist in Sintra die BESTE Zeit: kaum Menschen, niedrigste Preise, und der Nebel im Palastpark macht genau die Stimmung. Deshalb bewusst getrennt von der Sintra-Küste im September."
+    },
+    {
+      "trip": "Marrakesch",
+      "termin": "Fr 20. - Mo 23.11.",
+      "urteil": "optimal",
+      "warum": "November ist in Lissabon der nasseste Monat (128 mm, 13 Regentage, 42 % der Tage mit Regen). Marrakesch ist die Flucht daraus – und dort noch mild-warm."
+    },
+    {
+      "trip": "Évora & Alqueva",
+      "termin": "Sa 28. - So 29.11.",
+      "urteil": "optimal",
+      "warum": "Winter ist für Sterne die beste Zeit: klare, kalte Luft, Orion steht hoch. Nur der Neumond-Termin muss passen."
+    },
+    {
+      "trip": "Madeira",
+      "termin": "Sa 05. - Di 08.12.",
+      "urteil": "optimal",
+      "warum": "Mildes Klima, im Sommer wäre der PR1 zu heiß. Dezember ist genau richtig."
+    },
+    {
+      "trip": "Lissabon im Advent",
+      "termin": "Sa 12. - So 13.12.",
+      "urteil": "optimal",
+      "warum": "Wonderland Lisboa läuft, und ein Innenstadt-Wochenende ist im nassesten Teil des Jahres die richtige Wahl."
+    },
+    {
+      "trip": "Estuário do Tejo",
+      "termin": "Sa 09.01.",
+      "urteil": "optimal",
+      "warum": "Zugvogel-Saison Oktober bis Februar, im Januar die höchste Dichte."
+    },
+    {
+      "trip": "Nazaré Big Waves",
+      "termin": "Sa 16. - So 17.01.",
+      "urteil": "optimal",
+      "warum": "Die großen Atlantiktiefs kommen November bis Februar – Januar liegt mitten im Peak."
+    },
+    {
+      "trip": "Sintra-Paläste Tag B",
+      "termin": "Sa 23.01.",
+      "urteil": "gut",
+      "warum": "Nebensaison, leer und billig. Kürzere Tage – früh los."
+    },
+    {
+      "trip": "Abschluss Lissabon",
+      "termin": "Sa 30. - So 31.01.",
+      "urteil": "unkritisch",
+      "warum": "Stadtviertel und Kap, wetterunabhängig. Cabo Espichel bei Sturm sogar spektakulärer."
+    }
+  ],
+  "_kalender_extras": {
+    "_comment": "Alles, was im Kalender erscheinen soll, aber kein Trip ist. Feiertage und Uni-Termine sind Fakten, hinweise sind Konfliktmarker, abwesend blendet die Weihnachtspause aus.",
+    "feiertage": [
+      {
+        "datum": "2026-10-05",
+        "label": "Implantação da República"
+      },
+      {
+        "datum": "2026-11-01",
+        "label": "Allerheiligen"
+      },
+      {
+        "datum": "2026-12-01",
+        "label": "Restauração da Independência"
+      },
+      {
+        "datum": "2026-12-08",
+        "label": "Imaculada Conceição"
+      },
+      {
+        "datum": "2026-12-25",
+        "label": "Weihnachten"
+      },
+      {
+        "datum": "2027-01-01",
+        "label": "Neujahr"
+      }
+    ],
+    "termine": [
+      {
+        "von": "2026-09-02",
+        "bis": "2026-09-02",
+        "label": "NIF + Navegante",
+        "typ": "lissabon"
+      },
+      {
+        "von": "2026-09-04",
+        "bis": "2026-09-05",
+        "label": "Welcome Week",
+        "typ": "lissabon"
+      },
+      {
+        "von": "2026-09-07",
+        "bis": "2026-09-07",
+        "label": "Uni-Start",
+        "typ": "lissabon"
+      },
+      {
+        "von": "2026-09-24",
+        "bis": "2026-09-24",
+        "label": "Gulbenkian",
+        "typ": "lissabon"
+      },
+      {
+        "von": "2026-11-07",
+        "bis": "2026-11-08",
+        "label": "LEFFEST",
+        "typ": "lissabon"
+      },
+      {
+        "von": "2027-01-07",
+        "bis": "2027-01-07",
+        "label": "Rückkehr",
+        "typ": "lissabon"
+      }
+    ],
+    "hinweise": [
+      {
+        "von": "2026-10-25",
+        "bis": "2026-10-25",
+        "label": "Zeitumstellung"
+      },
+      {
+        "von": "2026-12-18",
+        "bis": "2026-12-18",
+        "label": "Heimflug"
+      },
+      {
+        "von": "2026-12-21",
+        "bis": "2026-12-22",
+        "label": "Nachholtermin?"
+      }
+    ],
+    "abwesend": [
+      {
+        "von": "2026-12-19",
+        "bis": "2027-01-06",
+        "label": "Deutschland"
+      }
+    ],
+    "baender": [
+      {
+        "monat": "2026-10",
+        "label": "Doclisboa 15.–25.10."
+      },
+      {
+        "monat": "2026-11",
+        "label": "LEFFEST 06.–15.11. · São Martinho 11.11."
+      },
+      {
+        "monat": "2026-12",
+        "label": "Wonderland Lisboa (Termine noch offen)"
+      },
+      {
+        "monat": "2027-01",
+        "label": "Prüfungszeitraum 04.–30.01."
+      }
+    ],
+    "monate": [
+      "2026-09",
+      "2026-10",
+      "2026-11",
+      "2026-12",
+      "2027-01"
+    ]
+  }
 }
