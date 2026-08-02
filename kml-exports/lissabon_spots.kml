@@ -5,49 +5,42 @@
   <Folder>
     <name>Kultur &amp; Events</name>
     <Placemark>
-      <name>Fundacao Calouste Gulbenkian</name>
-      <description><![CDATA[Exzellenter Konzertsaal fuer klassische Konzerte mit Residenzorchester. Die Gaerten eignen sich hervorragend zum Arbeiten/Lernen.<br/><i>Tipp: Cartao Gulbenkian (kostenlose Kundenkarte) vorab online beantragen -- schaltet den Buchungs-Button fuer kostenlose Events 24 Std. frueher frei.</i>]]></description>
+      <name>Fundação Calouste Gulbenkian</name>
+      <description><![CDATA[Exzellenter Konzertsaal für klassische Konzerte mit Residenzorchester. Die Gärten eignen sich hervorragend zum Arbeiten/Lernen.<br/><i>Tipp: Cartão Gulbenkian (kostenlose Kundenkarte) vorab online beantragen -- schaltet den Buchungs-Button für kostenlose Events 24 Std. früher frei.</i>]]></description>
       <Point>
         <coordinates>-9.1546,38.7369,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Web Summit</name>
-      <description><![CDATA[Globales Tech-Event, 09.-12.11.2026. Teilnahme als Volunteer bereits bestaetigt.]]></description>
+      <description><![CDATA[Globales Tech-Event, 09.-12.11.2026. Teilnahme als Volunteer bereits bestätigt.]]></description>
       <Point>
         <coordinates>-9.0968,38.7639,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <name>Konzert: Tchaikovsky's Serenade for Strings</name>
-      <description><![CDATA[24.09.2026, 20:00 Uhr, Fund. Gulbenkian. Kostenlos, aber Online-Reservierung noetig.]]></description>
+      <description><![CDATA[24.09.2026, 20:00 Uhr, Fund. Gulbenkian. Kostenlos, aber Online-Reservierung nötig.]]></description>
       <Point>
         <coordinates>-9.1546,38.7369,0</coordinates>
       </Point>
     </Placemark>
   </Folder>
   <Folder>
-    <name>Cafes &amp; Szene</name>
+    <name>Cafés &amp; Szene</name>
     <Placemark>
       <name>LX Factory</name>
-      <description><![CDATA[Hippes Industrieareal mit Ateliers und Cafes direkt unter der Bruecke.]]></description>
+      <description><![CDATA[Hippes Industrieareal mit Ateliers und Cafés direkt unter der Brücke.]]></description>
       <Point>
         <coordinates>-9.1755,38.705,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>Pow Wow</name>
-      <description><![CDATA[Sehr aktives Spiele-Cafe, ideal fuer Brettspiel-Meetups und um Leute kennenzulernen. Rua Professor Fernando da Fonseca 19, Telheiras.]]></description>
-      <Point>
-        <coordinates>-9.1633,38.7614,0</coordinates>
       </Point>
     </Placemark>
   </Folder>
   <Folder>
     <name>Outdoor &amp; Natur (Direktumgebung)</name>
     <Placemark>
-      <name>Sintra-Gebirge (Santuario da Peninha)</name>
-      <description><![CDATA[Alternative zu den ueberlaufenen Palaesten. Steile Waldpfade fuer ordentliche Anstiege und 360-Grad-Blicke.]]></description>
+      <name>Sintra-Gebirge (Santuário da Peninha)</name>
+      <description><![CDATA[Alternative zu den überlaufenen Palästen. Steile Waldpfade für ordentliche Anstiege und 360-Grad-Blicke.]]></description>
       <Point>
         <coordinates>-9.46051,38.76854,0</coordinates>
       </Point>

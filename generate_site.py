@@ -3,11 +3,12 @@
 generate_site.py -- Statischer Seiten-Generator fuer das Lisboa-Semester-Projekt.
 
 ARCHITEKTUR-PRINZIP (siehe Chat-Historie):
-Word-Dokumente (Lissabon_Tripplanung.docx, Lissabon_Spots.docx) bleiben die
-alleinige Bearbeitungswahrheit ("Source of Truth"). Claude ueberfuehrt Aenderungen
-daraus manuell/halbautomatisch in data/trips.json und data/spots.json.
-Dieses Skript liest AUSSCHLIESSLICH aus data/*.json und erzeugt daraus die
-statische Website in docs/ -- das ist der "Spiegel", nicht die Wahrheit.
+Word-Dokumente (Lissabon_Tripplanung.docx, die einzelnen Trip-Docx-Dateien,
+Lissabon_Spots.docx) bleiben die alleinige Bearbeitungswahrheit ("Source of
+Truth"). Claude ueberfuehrt Aenderungen daraus manuell/halbautomatisch in
+data/trips.json und data/spots.json. Dieses Skript liest AUSSCHLIESSLICH aus
+data/*.json und erzeugt daraus die statische Website in docs/ -- das ist der
+"Spiegel", nicht die Wahrheit.
 
 Warum diese Trennung (Data/Presentation Layer)?
 - Vermeidet einen bidirektionalen Sync (Word <-> Web), der ein klassisches
@@ -69,21 +70,46 @@ def render_trip_card(trip):
     """
 
 
+def optional_block(label, value):
+    """Rendert ein Detail-Feld nur, wenn im JSON tatsaechlich ein Wert steht (nicht null).
+    Haelt die Detailseiten schlank, solange ein Trip noch nicht voll ausgeplant ist."""
+    if not value:
+        return ""
+    return f'<p><strong>{label}:</strong> {value}</p>'
+
+
+def render_naechste_schritte(items):
+    if not items:
+        return ""
+    lis = "\n".join(f"<li>{item}</li>" for item in items)
+    return f"<h3>Nächste Schritte</h3><ul class='todo-list'>{lis}</ul>"
+
+
 def render_trip_page(trip, stand):
-    """Detailseite pro Trip mit allen Feldern aus trips.json."""
+    """Detailseite pro Trip -- spiegelt alle Felder aus trips.json, die das
+    jeweilige Trip-Docx bereits liefert. Felder ohne Wert (None) werden
+    ausgeblendet statt als "None" angezeigt."""
     css = STATUS_CSS.get(trip["status"], "")
-    begruendung_html = f"<p><strong>Begruendung:</strong> {trip['begruendung']}</p>" if trip.get("begruendung") else ""
-    logistik_html = f"<p><strong>Logistik:</strong> {trip['logistik']}</p>" if trip.get("logistik") else ""
-    maps_html = f'<p><a class="maps-link" href="{trip["maps_link"]}" target="_blank">In Google Maps oeffnen</a></p>' if trip.get("maps_link") else ""
+    blocks = "".join([
+        optional_block("Route &amp; Programm", trip.get("route_programm")),
+        optional_block("Logistik", trip.get("logistik")),
+        optional_block("Strecke / Höhenmeter", trip.get("hoehenmeter_strecke")),
+        optional_block("Budget &amp; Rabatte", trip.get("budget_rabatte")),
+        optional_block("Wetter-Hinweis", trip.get("wetter_hinweis")),
+        optional_block("Begründung", trip.get("begruendung")),
+    ])
+    naechste_schritte_html = render_naechste_schritte(trip.get("naechste_schritte"))
+    maps_html = f'<p><a class="maps-link" href="{trip["maps_link"]}" target="_blank">In Google Maps öffnen</a></p>' if trip.get("maps_link") else ""
+
     body = f"""{HTML_HEAD.format(title=trip['title'], css_path='../')}
-    <nav><a href="../index.html">&larr; Zur Uebersicht</a></nav>
+    <nav><a href="../index.html">&larr; Zur Übersicht</a></nav>
     <main>
       <span class="badge {css}">{trip['status_label']}</span>
       <h1>{trip['title']}</h1>
       <p class="meta">{trip['zeitraum']}</p>
       <p>{trip['beschreibung']}</p>
-      {logistik_html}
-      {begruendung_html}
+      {blocks}
+      {naechste_schritte_html}
       {maps_html}
     </main>
     {HTML_FOOT.format(stand=stand)}"""
@@ -96,7 +122,7 @@ def render_spot_category(cat):
               <strong>{s['name']}</strong>
               <p>{s['beschreibung']}</p>
               {f"<p class='tipp'>Tipp: {s['tipp']}</p>" if s.get('tipp') else ""}
-              <a href="{s['maps_link']}" target="_blank">In Google Maps oeffnen</a>
+              <a href="{s['maps_link']}" target="_blank">In Google Maps öffnen</a>
             </li>"""
         for s in cat["spots"]
     )
@@ -113,9 +139,9 @@ def build():
     # --- index.html: Uebersicht aller Trips, sortiert nach Status ---
     trips_sorted = sorted(trips_data["trips"], key=lambda t: STATUS_ORDER.get(t["status"], 99))
     cards = "\n".join(render_trip_card(t) for t in trips_sorted)
-    index_html = f"""{HTML_HEAD.format(title="Lissabon Semester -- Trip-Uebersicht", css_path='')}
+    index_html = f"""{HTML_HEAD.format(title="Lissabon Semester -- Trip-Übersicht", css_path='')}
     <header>
-      <h1>Lissabon Semester -- Trip-Uebersicht</h1>
+      <h1>Lissabon Semester -- Trip-Übersicht</h1>
       <p>NOVA IMS, Sep 2026 -- Jan 2027</p>
       <p><a href="spots.html">Spots &amp; Inspiration ansehen &rarr;</a></p>
     </header>
@@ -134,7 +160,7 @@ def build():
     # --- spots.html: Spots gruppiert nach Kategorie ---
     categories_html = "\n".join(render_spot_category(c) for c in spots_data["kategorien"])
     spots_html = f"""{HTML_HEAD.format(title="Lissabon Spots & Inspiration", css_path='')}
-    <nav><a href="index.html">&larr; Zur Trip-Uebersicht</a></nav>
+    <nav><a href="index.html">&larr; Zur Trip-Übersicht</a></nav>
     <header><h1>Spots &amp; Inspiration</h1></header>
     <main>
       {categories_html}
